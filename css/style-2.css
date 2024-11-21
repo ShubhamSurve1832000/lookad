@@ -1,0 +1,12 @@
+/* Contact Us Section */
+.contact-banner{text-align: start; width: 50%; margin: 0 auto;}
+.contact-banner .heading-01 {margin-left: 0;position: relative;}
+.contact-banner .heading-03 {-webkit-text-stroke: 3px; -webkit-text-fill-color: transparent;}
+.contact-banner .heading-03:last-child{text-align: end;}
+.contact-banner .heading-01::after {content: ""; display: block; width: 21.8rem; height: 21.8rem; background-color: #E50019; border-radius: 50%; position: absolute;  top: 20%; left: -1%; z-index: -1;}
+.contact-us-section .text{color: #2E3037;}
+.contact-us-section{margin-block: 7.2rem;}
+.contact-form-section{position: relative; overflow: hidden;background-color: #F5F4F4;}
+.contact-form-section::before{content: ''; position: absolute; width: 67.4rem; height: 67.4rem; border-radius:100%; background-color: #00000016; top: -50%; left: -20%;}
+.contact-form-section::after{content: ''; position: absolute; width: 67.4rem; height: 67.4rem; border-radius:100%; background-color: #00000016;bottom: -50%; right: -20%;}
+.contact-form-container{max-width: 72.5rem; height: 100vh;}
