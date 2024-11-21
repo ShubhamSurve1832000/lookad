@@ -62,7 +62,23 @@ input:focus, textarea:focus, button:focus {outline: none;}
 .news-tel-rad-title .heading-02:first-child, .news-tel-rad-title .heading-02:last-child {color: rgb(46,48, 55, 0.5);}
 .news-tel-rad-title .heading-02:nth-child(2) {color: rgb(229, 0, 25, 0.5);}
 
+/* About Decades Section */
+.about-decades-section {position: relative;}
+.about-decades-section .sm-container {color: #FFFFFF; display: flex; align-items: center; position: absolute; top: 0; bottom: 0; left: 0; right: 0; justify-content: center;}
+.about-decades-content {width: 44%;}
+.about-decades-section .heading-01 {font-size: 910px; line-height: 0;}
+.about-decades-section .heading-02 {font-size: 128px;}
+.about-decades-section .heading-06 {font-size: 37px; margin-top: 35px; margin-bottom: 17px;}
+
+/* TV Monitoring Section */
+.tv-monitoring-section {margin-top: 62px;}
+
 /* Footer */
 .footer {background: rgb(46,48,55); background: radial-gradient(circle, rgba(46,48,55,1) 0%, rgba(18,20,29,1) 100%); color: #FFFFFF; padding-top: 86px; padding-bottom: 68px;}
-.footer .md-container {display: grid; grid-template-columns: repeat(3, 1fr);}
-.useful-links li {font-size: 18px;}
+.footer .md-container {display: grid; grid-template-columns: 40% 30% 30%; justify-items: center;}
+.footer-content-01 .heading-06 {margin-top: 38px; margin-bottom: 25px; width: 90%;}
+.footer-content-01 a {display: block; margin-top: 18px;}
+.footer-content-02 .heading-06, .footer-content-03 .heading-06 {margin-bottom: 38px;}
+.useful-links li {font-size: 18px; margin-bottom: 14px;}
+.contact-info-box {display: flex; gap: 10px; margin-bottom: 14px;}
+.footer-social-media {display: flex; gap: 9px; margin-top: 22px;}
