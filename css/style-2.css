@@ -1,0 +1,9 @@
+/* Contact Us Section */
+.contact-banner{text-align: start; width: 50%; margin: 0 auto;}
+.contact-banner .heading-01 {margin-left: 0;position: relative;}
+.contact-banner .heading-03 {-webkit-text-stroke: 3px; -webkit-text-fill-color: transparent;}
+.contact-banner .heading-03:last-child{text-align: end;}
+.contact-banner .heading-01::after {content: ""; display: block; width: 21.8rem; height: 21.8rem; background-color: #E50019; border-radius: 50%; position: absolute;  top: 20%; left: -1%; z-index: -1;}
+.contact-us-section .text{color: #2E3037;}
+.contact-us-section{margin-block: 7.2rem;}
+.contact-form-section{max-width: 72.5rem;}

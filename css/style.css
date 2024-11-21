@@ -6,6 +6,14 @@ a {text-decoration: none; color: inherit;}
 input, textarea, button {border-radius: 0; border: none;}
 button {cursor: pointer;}
 input:focus, textarea:focus, button:focus {outline: none;}
+html {font-size: 62.5%;
+    /* @include breakpoint(max, 1700px) {font-size: 55%;}
+    @include breakpoint(max, 1500px) {font-size: 45%;}
+    @include breakpoint(max, 1300px) {font-size: 41.50%;}
+    @include breakpoint(max, 1279px) {font-size: 36%;} */
+}
+
+
 
 :root {
     --Anton : "Anton", sans-serif;
@@ -18,13 +26,13 @@ input:focus, textarea:focus, button:focus {outline: none;}
 .sm-container {max-width: 1250px; width: 65%; margin: 0 auto;}
 
 /* Headings and Texts */
-.heading-01 {font-size: 217px; font-family: var(--Anton); color: #FFFFFF; text-transform: uppercase; line-height: 1;}
-.heading-02 {font-size: 159px; font-family: var(--Anton); color: #FFFFFF; text-transform: uppercase; line-height: 1;}
-.heading-03 {font-size: 99px; font-family: var(--Anton); color: #FFFFFF; text-transform: uppercase; line-height: 1;}
-.heading-04 {font-size: 74px; font-family: var(--Anton); font-weight: 400; text-transform: uppercase;}
-.heading-05 {font-size: 45px; font-family: var(--Anton); font-weight: 400; text-transform: uppercase;}
-.heading-06 {font-size: 30px; font-family: var(--Signika); font-weight: 400;}
-.text {font-size: 18px; font-family: var(--Signika); font-weight: 400;}
+.heading-01 {font-size: 21.7rem; font-family: var(--Anton); color: #FFFFFF; text-transform: uppercase; line-height: 1;}
+.heading-02 {font-size: 15.9rem; font-family: var(--Anton); color: #FFFFFF; text-transform: uppercase; line-height: 1;}
+.heading-03 {font-size: 9.9rem; font-family: var(--Anton); color: #FFFFFF; text-transform: uppercase; line-height: 1;}
+.heading-04 {font-size: 7.4rem; font-family: var(--Anton); font-weight: 400; text-transform: uppercase;}
+.heading-05 {font-size: 4.5rem; font-family: var(--Anton); font-weight: 400; text-transform: uppercase;}
+.heading-06 {font-size: 3.0rem; font-family: var(--Signika); font-weight: 400;}
+.text {font-size: 1.8rem; font-family: var(--Signika); font-weight: 400;}
 
 .read-more-btn {font-size: 18px; font-family: var(--Signika); background: none; position: relative; display: flex; align-items: center; gap: 10px; margin-left: 50px;}
 .read-more-btn:before {content: ""; width: 46px; height: 1px; background-color: #000000; display: block; position: absolute; top: 50%; left: -43%;}
