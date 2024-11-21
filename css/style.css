@@ -1,0 +1,68 @@
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: "Signika", sans-serif; font-optical-sizing: auto; font-weight: 400; font-style: normal;}
+body {background-color: #FFFFFF; overflow: auto;}
+img {display: block; max-width: 100%;}
+li {list-style: none;}
+a {text-decoration: none; color: inherit;}
+input, textarea, button {border-radius: 0; border: none;}
+button {cursor: pointer;}
+input:focus, textarea:focus, button:focus {outline: none;}
+
+:root {
+    --Anton : "Anton", sans-serif;
+    --Signika : "Signika", sans-serif;
+}
+
+/* Containers */
+.lg-container {max-width: 1540px; width: 80%; margin: 0 auto;}
+.md-container {max-width: 1360px; width: 70%; margin: 0 auto;}
+.sm-container {max-width: 1250px; width: 65%; margin: 0 auto;}
+
+/* Headings and Texts */
+.heading-01 {font-size: 217px; font-family: var(--Anton); color: #FFFFFF; text-transform: uppercase; line-height: 1;}
+.heading-02 {font-size: 159px; font-family: var(--Anton); color: #FFFFFF; text-transform: uppercase; line-height: 1;}
+.heading-03 {font-size: 99px; font-family: var(--Anton); color: #FFFFFF; text-transform: uppercase; line-height: 1;}
+.heading-04 {font-size: 74px; font-family: var(--Anton); font-weight: 400; text-transform: uppercase;}
+.heading-05 {font-size: 45px; font-family: var(--Anton); font-weight: 400; text-transform: uppercase;}
+.heading-06 {font-size: 30px; font-family: var(--Signika); font-weight: 400;}
+.text {font-size: 18px; font-family: var(--Signika); font-weight: 400;}
+
+.read-more-btn {font-size: 18px; font-family: var(--Signika); background: none; position: relative; display: flex; align-items: center; gap: 10px; margin-left: 50px;}
+.read-more-btn:before {content: ""; width: 46px; height: 1px; background-color: #000000; display: block; position: absolute; top: 50%; left: -43%;}
+.read-more-btn:after {content: ""; display: block; width: 74px; height: 74px; background-color: #FFFFFF; border: 1px solid #E50019; border-radius: 50%; margin-left: -70px; position: relative; z-index: -9;}
+.read-more-btn span {display: block; width: 10px; height: 10px; background-color: #E50019; border-radius: 50%;}
+
+/* Header */
+.header {position: fixed; width: 100%; padding: 30px 0; border-bottom: 1px solid #707070; z-index: 9;}
+.header .lg-container {display: flex; align-items: center; justify-content: space-between;}
+.navbar-links {display: flex; gap: 41px;}
+.navbar-links li {font-size: 20px; color: #FFFFFF;}
+
+/* Main */
+/* Index */
+/* Home Banner Section */
+.home-banner-section {position: relative;}
+.home-banner-section span {display: block; width: 34.4%; height: 72.7%; background-color: rgb(229, 0, 25, 0.7); border-radius: 50%; position: absolute;  top: 50%; left: 18%; transform: translateY(-50%);}
+.home-banner-content {position: absolute; top: 50%; left: 0; right: 0; transform: translateY(-50%); text-align: center;}
+.home-banner-content .heading-02 {-webkit-text-stroke: 3px; -webkit-text-fill-color: transparent;}
+.home-banner-content .heading-01 {margin-left: 230px;}
+
+/* Summary Section */
+.summary-section {margin: 100px 0;}
+.summary-content-01 {display: flex; gap: 100px;}
+.summary-info-para {width: 50%;}
+.summary-info-para .heading-06 {margin-top: 24px; margin-bottom: 14px; width: 70%;}
+.summary-info-para .text {margin-bottom: 16px;}
+.summary-info-design {width: 50%; display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 110px; row-gap: 50px;}
+.sum-info-box {position: relative;}
+.sum-info-box:before {content: ""; display: block; width: 74px; height: 74px; border-radius: 50%; background-color: #E50019; position: absolute; z-index: -9;}
+.sum-info-box .info-number {font-size: 64px; font-family: var(--Anton); color: #E50019; -webkit-text-stroke: 2px; -webkit-text-fill-color: #FFFFFF;}
+.summary-content-02 {margin-top: 100px; text-align: center;}
+.news-tel-rad-title {margin-top: 30px;}
+.news-tel-rad-title .heading-02 {font-size: 195px;}
+.news-tel-rad-title .heading-02:first-child, .news-tel-rad-title .heading-02:last-child {color: rgb(46,48, 55, 0.5);}
+.news-tel-rad-title .heading-02:nth-child(2) {color: rgb(229, 0, 25, 0.5);}
+
+/* Footer */
+.footer {background: rgb(46,48,55); background: radial-gradient(circle, rgba(46,48,55,1) 0%, rgba(18,20,29,1) 100%); color: #FFFFFF; padding-top: 86px; padding-bottom: 68px;}
+.footer .md-container {display: grid; grid-template-columns: repeat(3, 1fr);}
+.useful-links li {font-size: 18px;}
