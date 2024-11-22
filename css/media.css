@@ -1,0 +1,47 @@
+@media screen and (max-width: 1700px){
+    html {font-size: 55%;}
+
+    .enquire-whatsapp-container {right: -9.5%;}
+    .enquire-whatsapp-container .whatsapp-icon {width: 6.5rem;}
+
+    .home-banner-section span {width: 59rem; height: 59rem;}
+
+    .summary-section .sm-container {width: 70%;}
+
+    .tv-monitoring-content-01 .heading-04 {width: 100%}
+}
+
+@media screen and (max-width: 1500px){
+    html {font-size: 45%;}
+
+    .header-logo {width: 18rem;}
+
+    .enquire-whatsapp-container {top: 65%;}
+    .enquire-whatsapp-container .heading-06 {margin-left: -2px;}
+
+    .home-banner-section span {top: 53%;}
+    .home-banner-content {top: 55%;}
+
+    .tv-monitoring-section .sm-container {gap: 2rem;}
+
+    .clients-logo-slider .slick-dots {gap: 1.4rem;}
+    .clients-logo-slider .slick-dots li button {width: 1.2rem; height: 1.2rem;}
+    .clients-logo-slider .slick-dots li.slick-active button{transform: scale(1.3);}
+
+    .footer-logo {width: 18rem;}
+    .footer .md-container {grid-template-columns: 35% 35% 30%;}
+}
+
+@media screen and (max-width: 1300px){
+    html {font-size: 41.50%;}
+
+    .enquire-whatsapp-container {right: -9%;}
+
+    .clients-logo-slider-box {column-gap: 5rem;}
+}
+
+@media screen and (max-width: 1279px){
+    html {font-size: 36%;}
+
+    .enquire-whatsapp-container {right: -10%;}
+}
