@@ -52,6 +52,7 @@ html {font-size: 62.5%;
 .header-logo {display: block; width: 20rem;}
 .navbar-links {display: flex; gap: 4.1rem;}
 .navbar-links li {font-size: 2rem; color: #FFFFFF;}
+.navbar-links li a {display: block; width: auto;}
 
 /* Enquire Now Sticky */
 .enquire-whatsapp-container {position: fixed; top: 68%; right: -9%; z-index: 99;}
@@ -128,10 +129,13 @@ html {font-size: 62.5%;
 .footer {background: rgb(46,48,55); background: radial-gradient(circle, rgba(46,48,55,1) 0%, rgba(18,20,29,1) 100%); color: #FFFFFF; padding-top: 8.6rem; padding-bottom: 6.8rem;}
 .footer .md-container {display: grid; grid-template-columns: 40% 30% 30%; justify-items: center;}
 .footer-content-01 .heading-06 {margin-top: 3.8rem; margin-bottom: 2.5rem; width: 90%;}
-.footer-content-01 .connect-now-link {display: block; margin-top: 1.8rem;}
+.footer-content-01 .connect-now-link {display: block; width: max-content; margin-top: 1.8rem;}
 .footer-logo {display: block; width: 20rem;}
 .footer-content-02 .heading-06, .footer-content-03 .heading-06 {margin-bottom: 3.8rem;}
 .useful-links li {font-size: 1.8rem; margin-bottom: 1.4rem;}
 .contact-info-box {display: grid; grid-template-columns: 2.2rem auto; gap: 1rem; margin-bottom: 1.4rem;}
 .footer-social-media {display: flex; gap: 0.9rem; margin-top: 2.2rem;}
 .footer-social-media li a {display: block; width: 4rem;}
+
+/* Our Services Page */
+/* Our Services Banner Section */

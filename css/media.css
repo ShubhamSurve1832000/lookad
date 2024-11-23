@@ -158,7 +158,7 @@
 
     /* Footer */
     .footer {padding-top: 5rem; padding-bottom: 5rem;}
-    .footer .md-container {width: 90%; grid-template-columns: 40% 60%; row-gap: 5rem;}
+    .footer .md-container {width: 90%; grid-template-columns: 50% 50%; row-gap: 5rem;}
     .footer-content-01 {grid-column: 2 span;}
     .footer-content-01 .heading-06 {margin-top: 2rem; margin-bottom: 2rem;}
     .footer-content-01 .connect-now-link {margin-top: 1.5rem;}
