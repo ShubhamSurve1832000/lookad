@@ -48,17 +48,18 @@ html {font-size: 62.5%;
 .header {position: fixed; top: 0; left: 0; right: 0; width: 100%; padding: 3rem 0; border-bottom: 1px solid #707070; z-index: 9;}
 .header.active {background-color: rgb(46, 48, 55, 0.9); border: none;}
 .header .lg-container {display: flex; align-items: center; justify-content: space-between;}
+.menu-btn {display: none;}
 .header-logo {display: block; width: 20rem;}
 .navbar-links {display: flex; gap: 4.1rem;}
 .navbar-links li {font-size: 2rem; color: #FFFFFF;}
 
 /* Enquire Now Sticky */
 .enquire-whatsapp-container {position: fixed; top: 68%; right: -9%; z-index: 99;}
-.enquire-whatsapp-container .heading-06 {font-size: 3.5rem; color: #FFFFFF; background-color: rgb(229, 0, 25, 0.8); padding: 1.4rem 2.9rem; border-start-start-radius: 2rem; border-start-end-radius: 2rem; transform-origin: 2rem 1.5rem; transform: rotate(-90deg); margin-bottom: -1.6rem; margin-left: -7px;}
+.enquire-whatsapp-container .heading-06 {display: block; font-size: 3.5rem; color: #FFFFFF; background-color: rgb(229, 0, 25, 0.8); padding: 1.4rem 2.9rem; border-start-start-radius: 2rem; border-start-end-radius: 2rem; transform-origin: 2rem 1.5rem; transform: rotate(-90deg); margin-bottom: -1.6rem; margin-left: -7px;}
 .enquire-whatsapp-container .whatsapp-icon {display: block; width: 7rem;}
 
 /* Main */
-/* Index */
+/* Index Page */
 /* Home Banner Section */
 .home-banner-section {position: relative;}
 .home-banner-section span {display: block; width: 66rem; height: 66rem; background-color: rgb(229, 0, 25, 0.7); border-radius: 50%; position: absolute;  top: 50%; left: 18%; transform: translateY(-50%);}
@@ -99,7 +100,7 @@ html {font-size: 62.5%;
 .tv-monitoring-section:after {content: ""; background-image: url(../img/pink_bg_circle_television.png); display: block; position: absolute; bottom: 0; right: 0; width: 28.5%; background-repeat: no-repeat; padding-bottom: 29%; z-index: -1; background-position: bottom right; background-size: contain;}
 .tv-monitoring-section .sm-container {display: flex; align-items: flex-start;}
 .tv-monitoring-content-01 {width: 50%; margin-top: 6rem; color: #2E3037; position: relative;}
-.tv-monitoring-content-01 .sm-outline-circle {display: block; width: 24.1rem; height: 24.1rem; background-color: transparent; border: 10px solid rgb(229, 0, 25, 0.2); border-radius: 50%; position: absolute; top: -2%; left: -13%; z-index: -1;}
+.tv-monitoring-content-01 .sm-outline-circle {display: block; width: 24.1rem; height: 24.1rem; background-color: transparent; border: 1rem solid rgb(229, 0, 25, 0.2); border-radius: 50%; position: absolute; top: -2%; left: -13%; z-index: -1;}
 .tv-monitoring-content-01 .heading-04 {width: 90%; line-height: 1.06;}
 .tv-monitoring-content-01 .text {width: 90%; margin-top: 2.2rem; margin-bottom: 2.7rem;}
 .grey-strip {height: 7.6rem; background: rgb(46,48,55); background: radial-gradient(circle, rgba(46,48,55,1) 0%, rgba(191,191,191,1) 100%);}
