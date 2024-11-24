@@ -30,4 +30,14 @@ $(document).ready(function(){
       slidesToScroll: 1,
   });
 
+  // Newspaper Advertisement Slider
+  $('.newspaper-advertisement-slider, .television-advertisement-slider, .outdoor-advertisement-slider, .digital-advertisement-slider').slick({
+    dots: false,
+    arrows: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  });
+
 })
