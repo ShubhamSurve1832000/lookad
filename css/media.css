@@ -1,0 +1,169 @@
+@media screen and (max-width: 1700px){
+    html {font-size: 55%;}
+
+    /* Enquire Now Sticky */
+    .enquire-whatsapp-container {right: -9.5%;}
+    .enquire-whatsapp-container .whatsapp-icon {width: 6.5rem;}
+
+    /* Index Page */
+    .home-banner-section span {width: 59rem; height: 59rem;}
+    .summary-section .sm-container {width: 70%;}
+}
+
+@media screen and (max-width: 1500px){
+    html {font-size: 45%;}
+
+    /* Header */
+    .header-logo {width: 18rem;}
+
+    /* Enquire Now Sticky */
+    .enquire-whatsapp-container {top: 65%;}
+    .enquire-whatsapp-container .heading-06 {margin-left: -2px;}
+
+    /* Index Page */
+    .home-banner-section span {top: 53%;}
+    .home-banner-content {top: 55%;}
+    .tv-monitoring-section .sm-container {gap: 2rem;}
+    .clients-logo-slider .slick-dots {gap: 1.4rem;}
+    .clients-logo-slider .slick-dots li button {width: 1.2rem; height: 1.2rem;}
+    .clients-logo-slider .slick-dots li.slick-active button{transform: scale(1.3);}
+
+    /* Footer */
+    .footer-logo {width: 18rem;}
+    .footer .md-container {grid-template-columns: 35% 35% 30%;}
+}
+
+@media screen and (max-width: 1300px){
+    html {font-size: 41.50%;}
+
+    /* Enquire Now Sticky */
+    .enquire-whatsapp-container {right: -9%;}
+
+    /* Index Page */
+    .clients-logo-slider-box {column-gap: 5rem;}
+}
+
+@media screen and (max-width: 1279px){
+    html {font-size: 36%;}
+
+    /* Enquire Now Sticky */
+    .enquire-whatsapp-container {right: -10%;}
+
+    /* Index Page */
+    .tv-monitoring-content-01 .heading-04 {width: 100%;}
+}
+
+@media screen and (max-width: 1023px){
+    /* Headings and Texts */
+    .heading-01 {font-size: 17.7rem;}
+    .heading-02 {font-size: 11.9rem;}
+    .heading-04 {font-size: 6rem;}
+    .heading-06 {font-size: 2.9rem;}
+
+    /* Header */
+    .header .lg-container {width: 85%;}
+    .enquire-whatsapp-container .heading-06 {font-size: 3.2rem; padding: 1rem 2.5rem;}
+    .enquire-whatsapp-container .whatsapp-icon {width: 6rem;}
+    
+    /* Enquire Now Sticky */
+    .enquire-whatsapp-container {right: -12%;}
+
+    /* Index Page */
+    .home-banner-section span {width: 45rem; height: 45rem; top: 57%; left: 15%;}
+    .home-banner-content {top: 57%;}
+    .summary-section .sm-container {width: 90%;}
+    .summary-content-01 {gap: 6rem;}
+    .summary-info-para .heading-06 {width: 80%;}
+    .summary-info-design {column-gap: 3rem; row-gap: 0rem;}
+    .sum-info-box .info-number {font-size: 6rem; -webkit-text-stroke: 0.7px;}
+    .sum-info-box .info-number img {width: 10rem;}
+    .news-tel-rad-title .heading-02 {font-size: 16.5rem;}
+    .about-decades-section .sm-container .lg-circle {width: 32rem; height: 32rem; left: -5%;}
+    .about-decades-section .heading-01 {font-size: 64rem;}
+    .about-decades-content {width: 50%;}
+    .about-decades-section .heading-02 {font-size: 7.8rem;}
+    .about-decades-content .sm-circle {top: 28%; left: 82%;}
+    .about-decades-section .heading-06 {margin-top: 2.5rem; margin-bottom: 1.5rem;}
+    .tv-monitoring-section .sm-container {width: 80%; gap: 0rem;}
+    .tv-monitoring-content-01 .heading-04 {width: 90%;}
+    .tv-monitoring-content-01 .text {margin-bottom: 2rem;}
+    .clients-logo-slider {padding-bottom: 8.4em;}
+    .clients-logo-slider-box .client-logo-img {width: 12rem;}
+
+    /* Footer */
+    .footer .md-container {width: 80%; grid-template-columns: 40% 30% 30%;}
+    .footer-content-01 .heading-06 {width: 100%;}
+}
+
+@media screen and (max-width: 767px){
+    /* Headings and Texts */
+    .heading-01 {font-size: 8rem;}
+    .heading-02 {font-size: 6rem;}
+    .heading-04 {font-size: 5.5rem;}
+
+    /* Header */
+    .header {border: none; background-color: #FFFFFF;}
+    .header.active {background-color: #FFFFFF;}
+    .header .navbar-links {display: block; position: fixed; right: 0; left: 0; bottom: 0; background: rgb(46, 48, 55); background: radial-gradient(circle, rgba(46, 48, 55, 1) 0%, rgba(18, 20, 29, 1) 100%); padding: 5rem 5rem; transform: translateX(100%); transition: 0.3s all ease;}
+    .header .navbar-links.active {transform: translateX(0%);}
+    .menu-btn {display: block; position: absolute; right: 20px; top: 50%; transform: translateY(-50%); width: 25px; height: 20px; background: none; border: none; border-bottom: solid 2px #E50019; cursor: pointer;}
+    .menu-btn:before, .menu-btn:after { content: ''; display: block; width: 100%; height: 2px; background: #E50019; margin: 4.5px 0; transform-origin: 8px 1px; transition: ease .3s all;}
+    .menu-btn.active:before {transform: rotate(45deg);}
+    .menu-btn.active:after {transform: rotate(-45deg);}
+    .menu-btn.active {border-bottom: none;}
+    .navbar-links li {font-size: 3.5rem; margin-bottom: 5rem;}
+
+    /* Enquire Now Sticky */
+    .enquire-whatsapp-container {top: 45%; right: -22%; z-index: 8;}
+    .enquire-whatsapp-container .heading-06 {font-size: 2.5rem; padding: 0.7rem 2.5rem; margin-left: -5px; margin-bottom: -0.5rem;}
+    .enquire-whatsapp-container .whatsapp-icon {width: 4rem;}
+
+    .main {margin-top: 63px;}
+
+    /* Index Page */
+    .home-banner-section span {width: 25rem; height: 25rem; top: 50%; transform: translateY(-50%);}
+    .home-banner-content {top: 50%;}
+    .home-banner-content .heading-02 {-webkit-text-stroke: 1px;}
+    .home-banner-content .heading-01 {margin-left: 10rem;}
+    .summary-section {margin: 5rem 0;}
+    .summary-content-01 {display: block;}
+    .summary-info-para {width: 100%;}
+    .summary-info-design {width: 90%; margin: 0 auto; justify-content: center; row-gap: 3rem; column-gap: 3rem; margin-top: 3rem;}
+    .sum-info-box:before {width: 6.4rem; height: 6.4rem;}
+    .sum-info-box .info-number {font-size: 4.5rem; padding-top: 2rem;}
+    .sum-info-box .info-number img {width: 8rem; margin-top: 2rem; margin-bottom: 1rem;}
+    .sum-info-box:last-child .text {width: 100%;}
+    .sum-info-box:last-child .text br {display: none;}
+    .summary-content-02 {margin-top: 5rem;}
+    .news-tel-rad-title .heading-02 {font-size: 10rem;}
+    .about-decades-section .sm-container {width: 90%; gap: 6rem;}
+    .about-decades-section .sm-container .lg-circle {width: 13rem; height: 13rem; left: -3%;}
+    .about-decades-section .heading-01 {font-size: 30rem; width: 20%;}
+    .about-decades-content {width: 80%;}
+    .about-decades-section .heading-02 {font-size: 3.5rem;}
+    .about-decades-content .sm-circle {width: 8rem; height: 8rem; top: 0%; left: 80%;}
+    .about-decades-section .heading-06 {font-size: 2.2rem; margin-top: 1rem; margin-bottom: 0.7rem; line-height: 1;}
+    .about-decades-section .text {font-size: 1.6rem; line-height: 1.05;}
+    .tv-monitoring-section {margin-top: 8rem;}
+    .tv-monitoring-section .sm-container {width: 90%; display: block;}
+    .tv-monitoring-content-01 {width: 100%;}
+    .tv-monitoring-content-01 .sm-outline-circle {width: 18rem; height: 18rem; top: -10%; left: -4%; border-width: 0.7rem;}
+    .tv-monitoring-content-01 .heading-04 {width: 100%;}
+    .tv-monitoring-content-01 .text {width: 100%;}
+    .tv-monitoring-section .sm-container img {width: 60%; margin: 0 auto;}
+    .clients-section .md-container {width: 90%;}
+    .clients-section .heading-04 {line-height: 1.2; margin-bottom: 2rem;}
+    .clients-logo-slider-box {width: 80% !important; margin: 0 auto; margin-top: 2rem; grid-template-columns: repeat(2, 1fr); column-gap: 0rem; row-gap: 5rem;}
+    .clients-logo-slider-box .client-logo-img {width: 15rem;}
+
+    /* Footer */
+    .footer {padding-top: 5rem; padding-bottom: 5rem;}
+    .footer .md-container {width: 90%; grid-template-columns: 50% 50%; row-gap: 5rem;}
+    .footer-content-01 {grid-column: 2 span;}
+    .footer-content-01 .heading-06 {margin-top: 2rem; margin-bottom: 2rem;}
+    .footer-content-01 .connect-now-link {margin-top: 1.5rem;}
+    .footer-content-02 {justify-self: flex-start;}
+    .footer-content-02 .heading-06, .footer-content-03 .heading-06 {margin-bottom: 2rem;}
+    .footer-social-media {margin-top: 0rem;}
+    .footer-social-media li a {width: 2.6rem;}
+}
