@@ -30,14 +30,46 @@ $(document).ready(function(){
       slidesToScroll: 1,
   });
 
-  // Newspaper Advertisement Slider
-  $('.newspaper-advertisement-slider, .television-advertisement-slider, .outdoor-advertisement-slider, .digital-advertisement-slider').slick({
+  // Newspaper Advertisement Slider, Outdoor Advertisement Slider, Digital Advertisement Slider
+  $('.newspaper-advertisement-slider, .outdoor-advertisement-slider, .digital-advertisement-slider').slick({
     dots: false,
     arrows: true,
     infinite: false,
     speed: 300,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    responsive: [
+      {
+        breakpoint: 1023,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: false,
+          dots: false
+        }
+      },
+    ]
+  });
+
+  // Television Advertisement Slider
+  $('.television-advertisement-slider').slick({
+    dots: false,
+    arrows: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 2,
+    slidesToScroll: 3,
+    responsive: [
+      {
+        breakpoint: 1023,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: false,
+          dots: false
+        }
+      },
+    ]
   });
 
 })
