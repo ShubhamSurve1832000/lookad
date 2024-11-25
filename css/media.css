@@ -1,8 +1,6 @@
 @media screen and (max-width: 1700px){
     html {font-size: 55%;}
 
-    /* Enquire Now Sticky */
-    .enquire-whatsapp-container {right: -9.5%;}
     .enquire-whatsapp-container .whatsapp-icon {width: 6.5rem;}
 
     /* Index Page */
@@ -60,7 +58,7 @@
     html {font-size: 41.50%;}
 
     /* Enquire Now Sticky */
-    .enquire-whatsapp-container {right: -9%;}
+    .enquire-whatsapp-container {right: -99px;}
 
     /* Index Page */
     .clients-logo-slider-box {column-gap: 5rem;}
@@ -80,7 +78,7 @@
     html {font-size: 36%;}
 
     /* Enquire Now Sticky */
-    .enquire-whatsapp-container {right: -10%;}
+    /* .enquire-whatsapp-container {right: -10%;} */
 
     /* Index Page */
     .tv-monitoring-content-01 .heading-04 {width: 100%;}
@@ -117,7 +115,7 @@
     .enquire-whatsapp-container .whatsapp-icon {width: 6rem;}
     
     /* Enquire Now Sticky */
-    .enquire-whatsapp-container {right: -12%;}
+    .enquire-whatsapp-container {right: -92px;}
 
     /* Index Page */
     .home-banner-section span {width: 45rem; height: 45rem; top: 57%; left: 15%;}
@@ -196,7 +194,7 @@
     .navbar-links li {font-size: 3.5rem; margin-bottom: 5rem;}
 
     /* Enquire Now Sticky */
-    .enquire-whatsapp-container {top: 45%; right: -22%; z-index: 8;}
+    .enquire-whatsapp-container {top: 45%; right: -78px; z-index: 8;}
     .enquire-whatsapp-container .heading-06 {font-size: 2.5rem; padding: 0.7rem 2.5rem; margin-left: -5px; margin-bottom: -0.5rem;}
     .enquire-whatsapp-container .whatsapp-icon {width: 4rem;}
 
