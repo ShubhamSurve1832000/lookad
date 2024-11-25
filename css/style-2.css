@@ -30,3 +30,4 @@
 .chat-box-btn{display: flex; align-items: center; gap: 1rem; cursor: pointer;}
 .chat-box-btn img{width: 8.8rem;}
 .address-box .box{margin-top: 3rem;}
+.map-box .md-container{margin-block: 6rem;}
