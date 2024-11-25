@@ -12,8 +12,13 @@
 .contact-form-container {max-width: 72.5rem;margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding-block: 7.8rem;}
 .contact-form-container .contact-form-box{background-color: #32343A; border-radius: 5.6rem; padding-inline: 11.8rem; padding-block: 8.4rem;}
 .contact-form-container .contact-form-box .heading-05{color: #fff;}
-.contact-form input , .contact-form select{background-color: transparent; border-bottom: 1px solid #E8E4E4;width: 100%; padding-block: 1rem;}
-.contact-form title{font-size: 3.0rem; font-family: var(--Signika); font-weight: 400; color: #fff;}
-.contact-form input::placeholder{color: #fff; font-size: 2.2rem;}
+.contact-form input , .contact-form select{ background-color: transparent; border: none; border-bottom: 1px solid #E8E4E4;width: 100%; padding-block: 1rem; font-size: 2.2rem; color: #fff;}
+.contact-form select{width: max-content;display: block; border-bottom: none;}
+.contact-form select:focus{outline: none;}
+.contact-form label{font-size: 3.0rem; font-family: var(--Signika); font-weight: 400; color: #fff;}
+.contact-form input::placeholder{color: #6F6F73; font-size: 2.2rem;}
 .contact-form select{color: #fff;}
+.contact-form .read-more-btn{color: #fff;z-index: 999;}
+.contact-form .read-more-btn:after{margin-left: -4rem;}
+.contact-form .input-box{margin-block: 2.8rem;}
 .contact-form select option{color: #000;}

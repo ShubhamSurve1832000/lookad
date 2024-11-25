@@ -59,24 +59,33 @@
                 <div class="contact-form-box">
                     <h2 class="heading-05">Send Us A Message</h2>
                     <form class="contact-form" action="javascript:;">
-                        
-                        <div>
-                            <title>Name*</title>
+                        <div class="input-box">
+                            <label for="nature-of-query">Nature of Query*</label>
+                            <select id="nature-of-query" class="form-select">
+                                <option value="" disabled hidden selected style="color: gray;">Select Query</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="technical">Technical Support</option>
+                                <option value="billing">Billing</option>
+                                <option value="feedback">Feedback</option>
+                            </select>
+                        </div>
+                        <div class="input-box">
+                            <label>Name*</label>
                             <input type="text" placeholder="Enter your first name">
                         </div>
-                        <div>
-                            <title>Email*</title>
+                        <div class="input-box">
+                            <label>Email*</label>
                             <input type="email" placeholder="Enter your email">
                         </div>
-                        <div>
-                            <title>Phone Number*</title>
-                            <input type="number">
+                        <div class="input-box">
+                            <label>Phone Number*</label>
+                            <input type="number" value="+91">
                         </div>
-                        <div>
-                            <title>Your Message</title>
+                        <div class="input-box">
+                            <label>Your Message</label>
                             <input type="number" placeholder="Write your message">
                         </div>
-                        <button>Submit</button>
+                        <button class="read-more-btn"><span></span>Submit</button>
                     </form>
                 </div>
                 <div class="address-box"></div>
