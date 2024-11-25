@@ -156,6 +156,7 @@ html {font-size: 62.5%;
 .we-provide-content .heading-02:last-child {color: rgb(229, 0, 25, 0.6); display: inline-block; margin-left: 1rem;}
 
 /* Advertisements Section */
+.advertisements-section {padding-bottom: 3.8rem;}
 .advertisements-section .heading-05 {font-size: 6.6rem; color: #FFFFFF; line-height: 1;}
 .advertisements-section .text {color: #FFFFFF;}
 .advertisements-section .heading-05 span {opacity: 0.5; display: block;}
@@ -184,5 +185,13 @@ html {font-size: 62.5%;
 .digital-media-logos {display: flex; align-items: center; justify-content: center; gap: 5rem; background-color: #FFFFFF;}
 
 /* Brand's Needs Section */
+.brands-needs-section {padding-top: 10.6rem;}
 .brands-needs-section .heading-04 {font-size: 8.8rem; line-height: 1;}
 .brands-needs-section .heading-04:first-child {color: rgb(191, 191, 191, 1);}
+.media-steps-container {display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 5rem;}
+.media-procedure {display: grid; grid-template-columns: 31% 69%;}
+.media-step-num-box {background-color: #E50019;}
+.media-step-num-box .step-num {font-size: 6rem; color: #FFFFFF; line-height: 0.8;}
+.media-step-num-box .step-num:first-child {font-size: 10rem; font-weight: 100;}
+.media-step-content-title {color: #2E3037;}
+.media-step-content-title span {color: #E50019;}
