@@ -7,8 +7,8 @@
 .contact-us-section .text {color: #2E3037;}
 .contact-us-section {margin-block: 7.2rem;}
 .contact-form-section{position: relative; overflow: hidden;background-color: #F5F4F4;}
-.contact-form-section::before {content: ''; position: absolute; width: 67.4rem; height: 67.4rem; border-radius:100%; background-color: #00000016; top: -50%; left: -20%;}
-.contact-form-section::after {content: ''; position: absolute; width: 67.4rem; height: 67.4rem; border-radius:100%; background-color: #00000016;bottom: -50%; right: -20%;}
+.contact-form-section::before {content: ''; position: absolute; width: 67.4rem; height: 67.4rem; border-radius:100%; background-color: #00000016; top: -32%; left: -13%;}
+.contact-form-section::after {content: ''; position: absolute; width: 67.4rem; height: 67.4rem; border-radius:100%; background-color: #00000016;bottom: -25%; right: -15%;}
 .contact-form-container {max-width: 119.5rem;margin: 0 auto; display: grid; gap:4.9rem; grid-template-columns: repeat(2, 1fr); justify-content: space-between; align-items: center; padding-block: 7.8rem;}
 .contact-form-container .contact-form-box{background-color: #32343A; border-radius: 5.6rem; padding-inline: 11.8rem; padding-block: 8.4rem;}
 .contact-form-container .contact-form-box .heading-05{color: #fff;}
@@ -25,4 +25,8 @@
 .add-title{font-size: 4.3rem; font-family: var(--Signika);margin-bottom: 2.2rem;}
 .add-box{display: flex; gap: 1rem; align-items: flex-start;margin-bottom: 2rem;}
 .add-box p,.add-box a{font-size: 2.6rem; font-weight: 600;}
+.address-box{display: flex; flex-direction: column; justify-content: space-between; height: 100%; margin-block: 2.2rem;}
+.address-box .heading-04{color: #BFBFBF;}
+.chat-box-btn{display: flex; align-items: center; gap: 1rem; cursor: pointer;}
+.chat-box-btn img{width: 8.8rem;}
 .address-box .box{margin-top: 3rem;}
