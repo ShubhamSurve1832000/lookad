@@ -63,6 +63,7 @@
     .md-container{width: 90%;}
     .contact-banner .heading-01::before{width: 28rem;height: 28rem; left: 45%;}
     .home-banner-content.contact-banner{width: 70%;top: 50% !important; transform: translateY(-50%);}
+    .contact-form-container{width: 90%;}
     
 }
 
