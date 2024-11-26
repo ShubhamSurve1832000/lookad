@@ -25,7 +25,7 @@
     .header-logo {width: 18rem;}
 
     /* Enquire Now Sticky */
-    .enquire-whatsapp-container {top: 65%;}
+    .enquire-whatsapp-container {top: 65%; right: -125px;}
     .enquire-whatsapp-container .heading-06 {margin-left: -2px;}
 
     /* Index Page */
@@ -127,11 +127,11 @@
     .sum-info-box .info-number {font-size: 6rem; -webkit-text-stroke: 0.7px;}
     .sum-info-box .info-number img {width: 10rem;}
     .news-tel-rad-title .heading-02 {font-size: 16.5rem;}
-    .about-decades-section .sm-container .lg-circle {width: 32rem; height: 32rem; left: -5%;}
-    .about-decades-section .heading-01 {font-size: 64rem;}
-    .about-decades-content {width: 50%;}
+    .about-decades-section .sm-container {margin-left: 0; margin: 0 auto;}
+    .about-decades-section .sm-container .lg-circle {width: 32rem; height: 32rem; left: 10%;}
+    .about-decades-content {width: 100%;}
     .about-decades-section .heading-02 {font-size: 7.8rem;}
-    .about-decades-content .sm-circle {top: 28%; left: 82%;}
+    .about-decades-content .sm-circle {top: 15%; left: 86%;}
     .about-decades-section .heading-06 {margin-top: 2.5rem; margin-bottom: 1.5rem;}
     .tv-monitoring-section .sm-container {width: 80%; gap: 0rem;}
     .tv-monitoring-content-01 .heading-04 {width: 90%;}
@@ -176,6 +176,9 @@
     .media-step-num-box .step-num {font-size: 3rem;}
 }
 
+@media screen and (max-width: 900px){
+}
+
 @media screen and (max-width: 767px){
     /* Headings and Texts */
     .heading-01 {font-size: 8rem;}
@@ -217,13 +220,12 @@
     .sum-info-box:last-child .text br {display: none;}
     .summary-content-02 {margin-top: 5rem;}
     .news-tel-rad-title .heading-02 {font-size: 10rem;}
-    .about-decades-section .sm-container {width: 90%; gap: 6rem;}
-    .about-decades-section .sm-container .lg-circle {width: 13rem; height: 13rem; left: -3%;}
-    .about-decades-section .heading-01 {font-size: 65rem; width: 25%;}
-    .about-decades-content {width: 80%;}
-    .about-decades-section .heading-02 {font-size: 3.5rem;}
-    .about-decades-content .sm-circle {width: 8rem; height: 8rem; top: 0%; left: 80%;}
-    .about-decades-section .heading-06 {font-size: 2.2rem; margin-top: 1rem; margin-bottom: 0.7rem; line-height: 1;}
+    .about-decades-section .sm-container {width: 50%; gap: 5rem;}
+    .about-decades-section .sm-container .lg-circle {width: 25rem; height: 25rem; left: 18%;}
+    /* .about-decades-content {width: 80%;} */
+    .about-decades-section .heading-02 {font-size: 6.5rem;}
+    .about-decades-content .sm-circle {width: 8rem; height: 8rem; top: 22%; left: 70%;}
+    .about-decades-section .heading-06 {font-size: 2.8rem; margin-top: 1rem; margin-bottom: 0.7rem; line-height: 1;}
     .about-decades-section .text {font-size: 1.6rem; line-height: 1.05;}
     .tv-monitoring-section {margin-top: 8rem;}
     .tv-monitoring-section .sm-container {width: 90%; display: block;}
@@ -256,8 +258,8 @@
     .our-services-banner-content .heading-01 {font-size: 9rem;}
     .we-provide-section {padding: 5rem 0;}
     .we-provide-content.sm-container {width: 90%;}
-    .we-provide-content .heading-04 {font-size: 5rem;}
-    .we-provide-content .heading-02 {font-size: 7rem;}
+    .we-provide-content .heading-04 {font-size: 6rem;}
+    .we-provide-content .heading-02 {font-size: 12rem;}
     .newspaper-advertisement, .television-advertisement, .outdoor-advertisement, .digital-media-advertisement {display: block; background-size: cover; padding: 6rem 3rem;}
     .newspaper-advertisement-slider, .outdoor-advertisement-slider, .digital-advertisement-slider {padding-left: 10rem; margin-top: 3rem;}
     .advertisements-section .newspaper-advertisement .slick-arrow.slick-prev {bottom: -3rem;}
@@ -276,7 +278,28 @@
     .media-step-num-box {padding-left: 5.5rem;}
 }
 
+@media screen and (max-width: 650px){
+    /* Index Page */
+    .about-decades-section .sm-container {width: 70%;}
+    .about-decades-section .sm-container .lg-circle {left: 10%;}
+    .about-decades-content .sm-circle {left: 80%;}
+
+    /* Our Services Page */
+    .we-provide-content .heading-04 {font-size: 5rem;}
+    .we-provide-content .heading-02 {font-size: 7rem;}
+}
+
 @media screen and (max-width: 500px){
     /* Index Page */
-    .about-decades-section .heading-01 {font-size: 30rem; width: 20%;}
+    .about-decades-section .sm-container {width: 80%;}
+    .about-decades-section .sm-container .lg-circle {width: 23rem; height: 23rem; left: 5%;}
+    .about-decades-content .sm-circle {left: 65%;}
+}
+
+@media screen and (max-width: 400px){
+    /* Index Page */
+    .about-decades-section .sm-container {grid-template-columns: 39% auto; gap: 2rem;}
+    .about-decades-4-img {height: 100%; width: auto;}
+    .about-decades-content {padding: 25px 0;}
+    .about-decades-content .sm-circle {top: 40%; left: 70%;}
 }
