@@ -40,6 +40,32 @@
 /* Why Us Page */
 .why-us-section .heading-01::after{top: 45%;left: -5%;}
 .why-us-section .heading-01::before{top: -15%;right: -1.5%;}
+.decades-brands-section{padding-block: 8rem;position: relative;}
+.decades-brands-section .md-container .heading{color: #2E3037; font-size: 12.7rem; font-family: var(--Anton);line-height: 1;}
+.decades-brands-section .brands-flex{display: flex; justify-content: space-between;align-items: end; gap: 3rem;}
+.decades-brands-section .brands-flex .heading-01{color: #A1A2A5; font-size: 29.2rem;}
+.decades-brands-section::before{content:"";position: absolute; right: 0; top: 0; width: 30%; height: 100%;background-image:url(../img/Intersection_9.png); z-index: -1; background-repeat: no-repeat;}
+.decades-brands-section::after{content:"";position: absolute; left: 0; bottom: 0; width: 30%; height: 50%;background-image:url(../img/Intersection_14.png); z-index: -1; background-repeat: no-repeat;}
+
+.our-superpowers-section{padding-block: 8rem;}
+.our-superpowers-section .sm-container .grid-container{display: grid; grid-template-columns: repeat(2 , 1fr); gap: 5rem;}
+.our-superpowers-section .grid-container .img-box{position: relative;}
+.our-superpowers-section .grid-container .img-box .box-header{position: absolute; right: 0; bottom: 0; left: 0; padding: 3.5rem;}
+.our-superpowers-section .grid-container .img-box .box-header .heading-05{font-size: 6rem; line-height: 1;color: #fff;}
+.our-superpowers-section .grid-container .img-box .box-header h3.heading-05{color: #E8E4E4;opacity: 52%;}
+.our-superpowers-section .grid-container .box .text{margin-top: 2rem;}
+/* .our-superpowers-section .grid-container .box{margin-top: 2rem;} */
+.grid-cloumn{display: flex; flex-direction: column; gap: 5rem;}
+.our-superpowers-section .grid-container .box-title{margin-block: 2rem;}
+.our-superpowers-section .grid-container .box-title .heading-05{font-size: 6rem; line-height: 1; color: #2E3037; opacity: 12%;}
+.our-superpowers-section .grid-container .box-title h3.heading-05{opacity: 38%;}
+.our-superpowers-section .grid-container .img-box .box-header .text{color: #fff;}
+
+.footer-banner-section{position: relative;}
+.footer-banner-section .banner-content{max-width: 120.3rem; width: 90%;position: absolute; top: 0; left:0; bottom: 0; right: 0; margin: 0 auto;}
+.banner-content .heading-03{display: inline-block;vertical-align: top;}
+.banner-content .heading-01{display: inline-block;}
+
 
 @media screen and (max-width: 1700px){
     .contact-form-container .contact-form-box{padding-inline: 7rem; padding-block: 5rem;}
