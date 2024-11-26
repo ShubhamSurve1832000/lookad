@@ -127,7 +127,7 @@ html {font-size: 62.5%;
 .index-ending-line-section .heading-04:last-child {color: #E50019;}
 
 /* Footer */
-.footer {background: rgb(46,48,55); background: radial-gradient(circle, rgba(46,48,55,1) 0%, rgba(18,20,29,1) 100%); color: #FFFFFF; padding-top: 8.6rem; padding-bottom: 6.8rem;}
+.footer {background: rgb(46,48,55); background: radial-gradient(circle, rgba(46,48,55,1) 0%, rgba(18,20,29,1) 100%); color: #FFFFFF; padding-top: 8.6rem; padding-bottom: 6.8rem;margin-top: -1px;}
 .footer .md-container {display: grid; grid-template-columns: 40% 30% 30%; justify-items: center;}
 .footer-content-01 .heading-06 {margin-top: 3.8rem; margin-bottom: 2.5rem; width: 90%;}
 .footer-content-01 .connect-now-link {display: block; width: max-content; margin-top: 1.8rem;}

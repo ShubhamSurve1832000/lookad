@@ -42,8 +42,8 @@
 .why-us-section .heading-01::before{top: -15%;right: -1.5%;}
 .decades-brands-section{padding-block: 8rem;position: relative;}
 .decades-brands-section .md-container .heading{color: #2E3037; font-size: 12.7rem; font-family: var(--Anton);line-height: 1;}
-.decades-brands-section .brands-flex{display: flex; justify-content: space-between;align-items: end; gap: 3rem;}
-.decades-brands-section .brands-flex .heading-01{color: #A1A2A5; font-size: 29.2rem;}
+.decades-brands-section .brands-flex{display: flex; justify-content: space-between;align-items: end; gap: 3rem;margin-top: 1rem;}
+.decades-brands-section .brands-flex .heading-01{color: #A1A2A5; font-size: 29.2rem;line-height: 0.9;}
 .decades-brands-section::before{content:"";position: absolute; right: 0; top: 0; width: 30%; height: 100%;background-image:url(../img/Intersection_9.png); z-index: -1; background-repeat: no-repeat;}
 .decades-brands-section::after{content:"";position: absolute; left: 0; bottom: 0; width: 30%; height: 50%;background-image:url(../img/Intersection_14.png); z-index: -1; background-repeat: no-repeat;}
 
@@ -62,9 +62,12 @@
 .our-superpowers-section .grid-container .img-box .box-header .text{color: #fff;}
 
 .footer-banner-section{position: relative;}
-.footer-banner-section .banner-content{max-width: 120.3rem; width: 90%;position: absolute; top: 0; left:0; bottom: 0; right: 0; margin: 0 auto;}
-.banner-content .heading-03{display: inline-block;vertical-align: top;}
-.banner-content .heading-01{display: inline-block;}
+.footer-banner-section .banner-content{max-width: 120.3rem; width: 90%;position: absolute; top: 50%; left:0; right: 0; margin: 0 auto;     transform: translateY(-50%);}
+.banner-content .heading-03{display: inline-block;vertical-align: top;font-size: 9.8rem;}
+.banner-content .heading-01{display: inline-block;font-size: 17.5rem;}
+.banner-content .heading-05{color: #fff;font-size: 5.3rem;}
+.banner-content{position: relative;}
+.banner-content::before{content: ''; position: absolute; width: 49.3rem; height: 49.4rem; border-radius: 100%;left: 8%; bottom: -50%;background-color: #E50019;z-index: -1;}
 
 
 @media screen and (max-width: 1700px){
@@ -82,8 +85,11 @@
 }
 
 @media screen and (max-width: 1023px){
-    .home-banner-content.contact-banner {top: 37% !important;}
+    .home-banner-content.contact-banner {top: 30% !important;}
     .contact-banner .heading-01::before{left: 70%;}
+    .contact-banner{width: 70%;}
+    .md-container{width: 90%;}
+    .sm-container{width: 90%;}
     
 }
 
@@ -93,8 +99,11 @@
     .map-box .md-container{width: 90%;}
     .md-container{width: 90%;}
     .contact-banner .heading-01::before{width: 28rem;height: 28rem; left: 45%;}
-    .home-banner-content.contact-banner{width: 70%;top: 50% !important; transform: translateY(-50%);}
+    .home-banner-content.contact-banner{width: 90%;top: 50% !important; transform: translateY(-50%);}
     .contact-form-container{width: 90%;}
+
+    .decades-brands-section .brands-flex{flex-direction: column; align-items: center;margin-top: 2rem;}
+    .our-superpowers-section .sm-container .grid-container{grid-template-columns: 1fr;}
     
 }
 
@@ -112,4 +121,9 @@
     .contact-form-section::after{bottom: -20%;right: -40%;}
     .contact-form-section::before{ top: -15%;left: -30%;}
     .contact-form-container{padding-block: 4.8rem;}
+
+    .why-us-section .contact-banner .heading-01::before{left: 75%; top: auto;}
+    .why-us-section .contact-banner .heading-01::after{top: 100%;left: -10%;}
+    .decades-brands-section .brands-flex .heading-01{font-size: 23rem;}
+    .decades-brands-section .md-container .heading{    font-size: 11.7rem;}
 }
