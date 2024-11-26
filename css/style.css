@@ -39,9 +39,9 @@ html {font-size: 62.5%;
 .bold {font-weight: 700;}
 
 /* Read More Button */
-.read-more-btn {font-size: 1.8rem; font-family: var(--Signika); background: none; position: relative; display: flex; align-items: center; gap: 1rem; margin-left: 5rem; color: #2E3037;}
+.read-more-btn {font-size: 1.8rem; font-family: var(--Signika); background: none; position: relative; display: flex; align-items: center; gap: 1rem; margin-left: 5rem; margin-top: 4.5rem; color: #2E3037;}
 .read-more-btn:before {content: ""; width: 4.6rem; height: 0.1rem; background-color: #000000; display: block; position: absolute; top: 50%; left: -43%;}
-.read-more-btn:after {content: ""; display: block; width: 7.4rem; height: 7.4rem; background-color: transparent; border: 1px solid #E50019; border-radius: 50%; margin-left: -7rem; position: relative; z-index: -1;}
+.read-more-btn:after {content: ""; display: block; width: 7.4rem; height: 7.4rem; background-color: transparent; border: 1px solid #E50019; border-radius: 50%; margin-left: -7rem; position: absolute; right: -2rem; z-index: -1;}
 .read-more-btn span {display: block; width: 1rem; height: 1rem; background-color: #E50019; border-radius: 50%;}
 
 /* Header */
@@ -205,7 +205,45 @@ html {font-size: 62.5%;
 .media-step-content-title {color: #2E3037; margin-bottom: 1rem;}
 .media-step-content-title span {color: #E50019;}
 
+/* About Us Page */
+/* About Us Banner Section */
+.about-us-banner-section {position: relative;}
+.about-us-lg-circle {display: block; width: 36.9rem; height: 36.9rem; background-color: rgb(229, 0, 25, 0.7); border-radius: 50%; position: absolute; top: 18%; left: 27%;}
+.about-us-sm-circle {display: block; width: 19.4rem; height: 19.4rem; background-color: rgb(229, 0, 25, 0.7); border-radius: 50%; position: absolute; top: 40%; left: 62%;}
+.about-us-banner-content {position: absolute; top: 50%; left: 0; right: 0; transform: translateY(-50%); text-align: center;}
+.about-us-banner-content .heading-03 {-webkit-text-stroke: 3px; -webkit-text-fill-color: transparent; margin-left: 32rem;}
 
-/*nitin*/
-.read-more-btn{margin-top: 4.5rem;}
-.read-more-btn:after{z-index: -1;position: absolute;right: -2rem;}
+/* About Change Section */
+.about-change-section {margin-top: 7.9rem;}
+.about-change-section .md-container {color: #2E3037;}
+.about-change-section .heading-05 {line-height: 1;}
+.about-change-content-box {display: grid; grid-template-columns: 50% 50%; column-gap: 4.8rem; margin-top: 2.3rem;}
+.about-change-qualities {display: grid; grid-template-columns: repeat(3, 1fr); margin: 5rem 0;}
+.about-change-quality-box {display: grid; align-items: center; justify-items: center;}
+.about-change-quality-box .heading-06 {text-align: center; line-height: 1.5;}
+.about-change-quality-box .heading-06 mark {background-color: #E50019; color: #FFFFFF;}
+.about-us-client-logos {display: flex; align-items: center; gap: 7rem; padding: 2rem 5rem; background: rgb(255,255,255); background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(191,191,191,1) 80%);}
+
+/* Mission Vision Section */
+.mission-vision-section {padding-top: 5.7rem; padding-bottom: 13.7rem;}
+.mission-vision-section .sm-container {color: #2E3037;}
+.mission-vision-content {display: grid; grid-template-columns: 50% 50%; column-gap: 6rem;}
+.mission-vision-tab-title {display: flex;}
+.mission-vision-tab-title .heading-06 {padding: 2.8rem 8rem; border: 1px solid #BFBFBF;}
+.mission-vision-tab-title .heading-06.active {background-color: #2E3037; color: #FFFFFF; border: none; position: relative;}
+.mission-vision-tab-title .heading-06.active:after {content: ""; display: block; width: 0; height: 0; border-left: 15px solid transparent; border-right: 15px solid transparent; border-bottom: 15px solid #2E3037; transform: rotate(-180deg); position: absolute; bottom: -1.4rem; left: 13rem;}
+.mv-tab-content {display: none;}
+.mv-tab-content.active {display: block;}
+.mission-vision-tab-content {margin-top: 2.8rem;}
+.mission-vision-tab-content .heading-05 {line-height: 1.2;}
+.mission-vision-tab-content .text {margin-top: 1rem; margin-bottom: 2rem;}
+.mission-tab-list li, .vision-tab-list li {font-size: 2.3rem; margin-bottom: 1.4rem;}
+.mission-tab-list li:before, .vision-tab-list li:before {content: ""; background-image: url(../img/about_us_mission_vision_tick_icon.png); display: inline-block; width: 3rem; height: 3rem; background-repeat: no-repeat; vertical-align: middle; margin-right: 1.4rem;}
+.mission-vision-img {justify-items: flex-end; align-content: flex-end; position: relative;}
+.mission-vision-img-circle {display: block; width: 21.8rem; height: 21.8rem; background-color: rgb(229, 0, 25, 0.8); border-radius: 50%; position: absolute; bottom: 0; left: 10rem;}
+
+.our-team-section .sm-container {background-image: url(../img/our_team_bg_img.png); background-repeat: no-repeat; display: grid; grid-template-columns: 50% 50%;}
+.our-team-content {grid-column: 2;}
+.our-team-title {font-size: 4.2rem; color: #FFFFFF;}
+.about-our-team {background-image: url(../img/about_our_team_bg_design.png); background-repeat: no-repeat;}
+.about-our-team .text {width: 20%; color: #FFFFFF;}
