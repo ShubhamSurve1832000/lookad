@@ -36,6 +36,11 @@
 .address-box .box{margin-top: 3rem;}
 .map-box .md-container{margin-block: 6rem;}
 
+
+/* Why Us Page */
+.why-us-section .heading-01::after{top: 45%;left: -5%;}
+.why-us-section .heading-01::before{top: -15%;right: -1.5%;}
+
 @media screen and (max-width: 1700px){
     .contact-form-container .contact-form-box{padding-inline: 7rem; padding-block: 5rem;}
     .contact-form .input-box { margin-block: 2.2rem;}
