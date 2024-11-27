@@ -16,6 +16,16 @@
     .advertisements-section .outdoor-advertisement .slick-arrow.slick-next {bottom: 3rem;}
     .advertisements-section .digital-media-advertisement .slick-arrow.slick-prev {bottom: 4rem;}
     .advertisements-section .digital-media-advertisement .slick-arrow.slick-next {bottom: 4rem;}
+
+    /* About Us Page */
+    .about-our-team-img {justify-items: center;}
+    .mission-vision-content {grid-template-columns: 55% 45%;}
+    .mission-vision-img-circle {left: 0rem;}
+    .mission-tab-list li:before, .vision-tab-list li:before {background-size: 85%;}
+    .about-our-team-img img {width: 40rem;}
+    .about-our-team-info {width: 59.5%; top: 2.4rem; left: 12.2rem;}
+    .reviews-section .slick-arrow.slick-prev {padding-bottom: 8%;}
+    .reviews-section .slick-arrow.slick-next {padding-bottom: 8%;}
 }
 
 @media screen and (max-width: 1500px){
@@ -52,6 +62,20 @@
     .advertisements-section .digital-media-advertisement .slick-arrow.slick-next {bottom: 2rem;}
     .digital-media-logos {padding-top: 1rem; padding-bottom: 1rem;}
     .digital-media-logos img {width: 12rem;}
+
+    /* About Us Page */
+    .about-change-qualities {margin: 5rem 10rem;}
+    .about-us-client-logos img {width: 12rem;}
+    .mission-vision-tab-title .heading-06 {padding: 2rem 6rem; width: 30rem; text-align: center;}
+    .mission-vision-tab-title .heading-06.active:after {left: 12rem;}
+    .our-team-section .sm-container {background-size: 100%;}
+    .about-our-team-info {width: 86%; left: 3rem;}
+    .our-team-content {justify-items: center;}
+    .our-team-title {margin-left: 7rem;}
+    .reviews-section .slick-arrow.slick-prev {width: 6%; padding-bottom: 12%;}
+    .reviews-section .slick-arrow.slick-next {width: 6%; padding-bottom: 12%;}
+    .review-text:before {top: 30px; padding-bottom: 6%;}
+    .review-box {box-shadow: 0px 0px 10px 0px #707070;}
 }
 
 @media screen and (max-width: 1300px){
@@ -72,6 +96,11 @@
     .advertisements-section .outdoor-advertisement .slick-arrow.slick-next {bottom: 0rem;}
     .advertisements-section .digital-media-advertisement .slick-arrow.slick-prev {bottom: 1rem;}
     .advertisements-section .digital-media-advertisement .slick-arrow.slick-next {bottom: 1rem;}
+
+     /* About Us Page */
+    .review-text:before {background-size: 80%;}
+    .reviews-section .slick-arrow.slick-prev {background-size: 100%;}
+    .reviews-section .slick-arrow.slick-next {background-size: 95%;}
 }
 
 @media screen and (max-width: 1279px){
@@ -100,6 +129,10 @@
     .media-step-num-box .step-num:first-child {font-size: 7rem; line-height: 0.9;}
     .media-step-num-box .step-num {font-size: 3.5rem;}
     .home-banner-content {top: 45%;}
+
+    /* About Us Page */
+    .reviews-section .slick-arrow.slick-prev {right: 45px; top: -70px;}
+    .reviews-section .slick-arrow.slick-next {top: -70px;}
 }
 
 @media screen and (max-width: 1023px){
@@ -174,6 +207,14 @@
     .media-step-num-box {padding-left: 9.5rem;}
     .media-step-num-box .step-num:first-child {font-size: 6rem;}
     .media-step-num-box .step-num {font-size: 3rem;}
+
+    /* About Us Page */
+    .about-us-lg-circle {width: 30rem; height: 30rem; top: 23%;}
+    .about-us-sm-circle {width: 15rem; height: 15rem; top: 50%; left: 63%;}
+    .about-us-banner-content {top: 60%;}
+    .about-us-banner-content .heading-03 {-webkit-text-stroke: 2px; margin-left: 22rem;}
+    .about-us-client-logos img {width: 9rem;}
+    .review-box img {width: 10rem;}
 }
 
 @media screen and (max-width: 900px){
@@ -276,6 +317,21 @@
     .brands-needs-section .heading-04 {font-size: 5.8rem;}
     .media-procedure {grid-template-columns: 30% 70%; clip-path: polygon(calc(100% - 6rem) 0%, 100% 50%, calc(100% - 6rem) 100%, 0% 100%, 11% 50%, 0% 0%);}
     .media-step-num-box {padding-left: 5.5rem;}
+
+    /* About Us Page */
+    .about-us-lg-circle {width: 16rem; height: 16rem; top: 6%; left: 23%;}
+    .about-us-sm-circle {width: 10rem; height: 10rem; top: 28%; left: 62%;}
+    .about-us-banner-content {top: 50%;}
+    .about-us-banner-content .heading-03 {font-size: 6rem; -webkit-text-stroke: 1px; margin-left: 10rem;}
+    .about-change-section {margin-top: 3rem;}
+    .about-change-content-box {display: block;}
+    .about-change-section .heading-05 {line-height: 1.5;}
+    .about-change-content {margin-top: 3rem;}
+    .about-change-content .text {margin-top: 2rem;}
+    .about-change-qualities {margin: 5rem 0; grid-template-columns: repeat(2, 1fr);}
+    .about-change-quality-img {width: 11rem; height: 11rem;}
+    .mission-vision-content {display: block;}
+    .mission-vision-img {margin-top: 7rem;}
 }
 
 @media screen and (max-width: 650px){

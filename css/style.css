@@ -219,12 +219,14 @@ html {font-size: 62.5%;
 .about-change-section .md-container {color: #2E3037;}
 .about-change-section .heading-05 {line-height: 1;}
 .about-change-content-box {display: grid; grid-template-columns: 50% 50%; column-gap: 4.8rem; margin-top: 2.3rem;}
-.about-change-qualities {display: grid; grid-template-columns: repeat(3, 1fr); margin: 5rem 0;}
-.about-change-quality-box {display: grid; align-items: center; justify-items: center;}
-.about-change-quality-box .heading-06 {text-align: center; line-height: 1.5;}
+.about-change-qualities {display: grid; grid-template-columns: repeat(3, 1fr); margin: 5rem 5rem; row-gap: 4.8rem;}
+.about-change-quality-box {display: grid; align-items: center; justify-items: center; row-gap: 1.8rem;}
+.about-change-quality-img {width: 13rem; height: 13rem;}
+.about-change-quality-img img {width: 100%; height: 100%; object-fit: contain;}
+.about-change-quality-box .heading-06 {text-align: center; line-height: 1.5; align-self: end;}
 .about-change-quality-box .heading-06 mark {background-color: #E50019; color: #FFFFFF;}
 .about-change-quality-box .heading-06 mark span {padding: 0 1rem;}
-.about-us-client-logos {display: flex; align-items: center; gap: 7rem; padding: 2rem 5rem; background: rgb(255,255,255); background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(191,191,191,1) 80%);}
+.about-us-client-logos {display: flex; align-items: center; gap: 7rem; padding: 2rem 5rem; background: rgb(255,255,255); background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(191,191,191,1) 80%); justify-content: center;}
 
 /* Mission Vision Section */
 .mission-vision-section {padding-top: 5.7rem; padding-bottom: 13.7rem; position: relative;}
@@ -241,7 +243,7 @@ html {font-size: 62.5%;
 .mission-vision-tab-content .heading-05 {line-height: 1.2;}
 .mission-vision-tab-content .text {margin-top: 1rem; margin-bottom: 2rem;}
 .mission-tab-list li, .vision-tab-list li {font-size: 2.3rem; margin-bottom: 1.4rem;}
-.mission-tab-list li:before, .vision-tab-list li:before {content: ""; background-image: url(../img/about_us_mission_vision_tick_icon.png); display: inline-block; width: 3rem; height: 3rem; background-repeat: no-repeat; vertical-align: middle; margin-right: 1.4rem;}
+.mission-tab-list li:before, .vision-tab-list li:before {content: ""; background-image: url(../img/about_us_mission_vision_tick_icon.png); display: inline-block; width: 3rem; padding-bottom: 3rem; background-repeat: no-repeat; vertical-align: middle; margin-right: 1.4rem;}
 .mission-vision-img {justify-items: flex-end; align-content: flex-end; position: relative;}
 .mission-vision-img-circle {display: block; width: 21.8rem; height: 21.8rem; background-color: rgb(229, 0, 25, 0.8); border-radius: 50%; position: absolute; bottom: 0; left: 10rem;}
 
@@ -269,7 +271,7 @@ html {font-size: 62.5%;
 .reviews-section .slick-arrow.slick-prev {background-image: url(../img/reviews_slider_prev_arrow.png); background-repeat: no-repeat; background-color: transparent; width: 5%; padding-bottom: 7%; top: -90px; right: 60px;}
 .reviews-section .slick-arrow.slick-next {background-image: url(../img/reviews_slider_next_arrow.png); background-repeat: no-repeat; background-color: transparent; width: 5%; padding-bottom: 7%; top: -90px; right: 0;}
 .reviews-section .slick-arrow.slick-disabled {opacity: 0.5;}
-.review-box {display: grid !important; justify-items: center; padding: 10.4rem 5.5rem 4.5rem 5.5rem; box-shadow: 0px 0px 20px 0px #707070; border-radius: 3.3rem; border: 1px solid #707070;}
+.review-box {display: grid !important; justify-items: center; padding: 10.4rem 5.5rem 4.5rem 5.5rem; box-shadow: 0px 0px 20px 0px #707070; border-radius: 3.3rem; border: 1px solid #707070; border: none;}
 .review-text {text-align: center;}
 .review-text:before {content: ""; background-image: url(../img/about_us_review_design_icon.png); background-repeat: no-repeat; display: block; width: 3%; padding-bottom: 4%; position: absolute; top: 65px;}
 .reviewer-name {font-size: 2.3rem; margin-top: 2.8rem; margin-bottom: 1rem;}
