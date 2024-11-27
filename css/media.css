@@ -16,6 +16,7 @@
     .advertisements-section .outdoor-advertisement .slick-arrow.slick-next {bottom: 3rem;}
     .advertisements-section .digital-media-advertisement .slick-arrow.slick-prev {bottom: 4rem;}
     .advertisements-section .digital-media-advertisement .slick-arrow.slick-next {bottom: 4rem;}
+    .slick-slider .slick-track, .slick-slider .slick-list{height: 10rem;}
 }
 
 @media screen and (max-width: 1500px){
