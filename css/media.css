@@ -26,6 +26,7 @@
     .about-our-team-info {width: 59.5%; top: 2.4rem; left: 12.2rem;}
     .reviews-section .slick-arrow.slick-prev {padding-bottom: 8%;}
     .reviews-section .slick-arrow.slick-next {padding-bottom: 8%;}
+    .slick-slider .slick-track, .slick-slider .slick-list{height: 10rem;}
 }
 
 @media screen and (max-width: 1500px){
