@@ -16,6 +16,7 @@
     .advertisements-section .outdoor-advertisement .slick-arrow.slick-next {bottom: 3rem;}
     .advertisements-section .digital-media-advertisement .slick-arrow.slick-prev {bottom: 4rem;}
     .advertisements-section .digital-media-advertisement .slick-arrow.slick-next {bottom: 4rem;}
+    .our-team-media-slider-section .slick-slider .slick-track, .our-team-media-slider-section .slick-list.draggable{height: 10rem;}
 
     /* About Us Page */
     .about-our-team-img {justify-items: center;}
