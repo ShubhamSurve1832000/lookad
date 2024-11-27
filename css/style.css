@@ -281,3 +281,12 @@ html {font-size: 62.5%;
 .about-us-ending-line-section .heading-04 {text-align: center; line-height: 1.2;}
 .about-us-ending-line-section .heading-04:first-child {color: #2E3037;}
 .about-us-ending-line-section .heading-04:last-child {color: #E50019;}
+
+/* Thank You Page  */
+/* Thank You Section */
+.thank-you-section {margin-top: 20rem;}
+.thank-you-section .lg-container {width: 50%;}
+.thank-you-heading {color: #E50019;}
+.thank-you-text {font-size: 3rem; line-height: 1.5;}
+.thank-you-map-container {margin-top: 5rem;}
+.thank-you-map-container iframe {width: 100%;}

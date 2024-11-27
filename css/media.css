@@ -22,8 +22,10 @@
     .mission-vision-content {grid-template-columns: 55% 45%;}
     .mission-vision-img-circle {left: 0rem;}
     .mission-tab-list li:before, .vision-tab-list li:before {background-size: 85%;}
+    .our-team-section .sm-container {padding-bottom: 22.2rem;}
     .about-our-team-img img {width: 40rem;}
     .about-our-team-info {width: 59.5%; top: 2.4rem; left: 12.2rem;}
+    .our-team-title {margin-left: 10rem;}
     .reviews-section .slick-arrow.slick-prev {padding-bottom: 8%;}
     .reviews-section .slick-arrow.slick-next {padding-bottom: 8%;}
     .slick-slider .slick-track, .slick-slider .slick-list{height: 10rem;}
@@ -72,7 +74,6 @@
     .our-team-section .sm-container {background-size: 100%;}
     .about-our-team-info {width: 86%; left: 3rem;}
     .our-team-content {justify-items: center;}
-    .our-team-title {margin-left: 7rem;}
     .reviews-section .slick-arrow.slick-prev {width: 6%; padding-bottom: 12%;}
     .reviews-section .slick-arrow.slick-next {width: 6%; padding-bottom: 12%;}
     .review-text:before {top: 30px; padding-bottom: 6%;}
@@ -210,6 +211,8 @@
     .media-step-num-box .step-num {font-size: 3rem;}
 
     /* About Us Page */
+    .client-logo-box {width: 10rem; height: 10rem;}
+    .client-logo-box img {width: 100%; height: 100%; object-fit: contain;}
     .about-us-lg-circle {width: 30rem; height: 30rem; top: 23%;}
     .about-us-sm-circle {width: 15rem; height: 15rem; top: 50%; left: 63%;}
     .about-us-banner-content {top: 60%;}

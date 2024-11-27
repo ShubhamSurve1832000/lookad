@@ -95,6 +95,17 @@ $(document).ready(function () {
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1023,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: false,
+          dots: false
+        }
+      },
+    ]
   });
 
   // About Us Review Slider
@@ -108,6 +119,40 @@ $(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 0,
     speed: 3000,
+    responsive: [
+      {
+        breakpoint: 1023,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
+    ]
   });
 
+  // About Us Client Logos  Slider
+  $('.about-us-client-logos').slick({
+    responsive: [
+      {
+        breakpoint: 1023,
+        settings: {
+          dots: false,
+          arrows: false,
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 0,
+          speed: 3000,
+        }
+      },
+    ]
+  });
 })
