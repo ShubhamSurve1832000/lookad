@@ -38,6 +38,40 @@
         <div class="enquire-whatsapp-container">
             <button class="enquire-now-btn heading-06">Enquire Now</button>
             <a class="whatsapp-icon" href="javascript:;"><img src="img/enquire_whatsapp_icon.png" alt=""></a>
+            <div class="overlay"></div>
+            <div class="contact-form-box">
+                <span class="close"></span>
+                <h2 class="heading-05">Send Us A Message</h2>
+                <form class="contact-form" action="javascript:;">
+                    <div class="input-box">
+                        <label for="nature-of-query">Nature of Query*</label>
+                        <select id="nature-of-query" class="form-select">
+                            <option value="" disabled hidden selected style="color: gray;">Select Query</option>
+                            <option value="general">New Brand Enquiry </option>
+                            <option value="technical">General Enquiry </option>
+                            <option value="billing">Job Enquiry</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <label>Name*</label>
+                        <input type="text" placeholder="Enter your first name">
+                    </div>
+                    <div class="input-box">
+                        <label>Email*</label>
+                        <input type="email" placeholder="Enter your email">
+                    </div>
+                    <div class="input-box">
+                        <label>Phone Number*</label>
+                        <input type="tel" value="+91">
+                    </div>
+                    <div class="input-box">
+                        <label>Your Message</label>
+                        <textarea id="w3review" name="w3review" rows="1" cols="50"
+                            placeholder="Write your message"></textarea>
+                    </div>
+                    <button class="read-more-btn"><span></span>Submit</button>
+                </form>
+            </div>
         </div>
         <main class="main">
             <section class="contact-banner-section why-us-section">
@@ -165,7 +199,7 @@
                         <h2 class="heading-01">almost there </h2>
                     </div>
                 </div>
-            </section>            
+            </section>
         </main>
 
         <footer class="footer">

@@ -11,6 +11,13 @@ $(document).ready(function () {
     }
   });
 
+  // Enquiry Form
+  $(document).ready(function () {
+    $(".enquire-now-btn , .close , .overlay").click(function () {
+      $('.contact-form-box , .overlay').toggleClass("active");
+    });
+  });
+
   // Hamburger Menu
   var headerH = $(".header").outerHeight()
 
