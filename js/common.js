@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
   // Header Background Color Change on Scroll
   $(window).scroll(function () {
@@ -14,28 +14,28 @@ $(document).ready(function(){
   // Hamburger Menu
   var headerH = $(".header").outerHeight()
 
-  $(document).on("click", ".menu-btn", function(){
+  $(document).on("click", ".menu-btn", function () {
     $(this).toggleClass("active")
     $(".header .navbar-links").toggleClass("active")
-    $(".header .navbar-links").css('top' , headerH)
+    $(".header .navbar-links").css('top', headerH)
   })
 
-  $(document).on('click', '[data-tab]', function(){
+  $(document).on('click', '[data-tab]', function () {
     $(this).addClass("active");
     $(this).siblings().removeClass("active");
     var dataTab = $(this).attr('data-tab');
-    $('#'+dataTab).siblings().removeClass("active");
-    $('#'+dataTab).addClass('active');
+    $('#' + dataTab).siblings().removeClass("active");
+    $('#' + dataTab).addClass('active');
   })
 
   // Clients Logo Slider
   $('.clients-logo-slider').slick({
-      dots: true,
-      arrows: false,
-      infinite: true,
-      speed: 300,
-      slidesToShow: 1,
-      slidesToScroll: 1,
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
   });
 
   // Newspaper Advertisement Slider, Outdoor Advertisement Slider, Digital Advertisement Slider
@@ -78,6 +78,29 @@ $(document).ready(function(){
         }
       },
     ]
+  });
+
+  // About Us Review Slider
+  $('.reviews-content-slider').slick({
+    dots: false,
+    arrows: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+  });
+
+  // About Us Review Slider
+  $('.our-team-media-slider-section').slick({
+    dots: false,
+    arrows: false,
+    centerMode: true,
+    infinite: true,
+    slidesToShow: 7,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 0,
+    speed: 3000,
   });
 
 })

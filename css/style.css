@@ -222,10 +222,12 @@ html {font-size: 62.5%;
 .about-change-quality-box {display: grid; align-items: center; justify-items: center;}
 .about-change-quality-box .heading-06 {text-align: center; line-height: 1.5;}
 .about-change-quality-box .heading-06 mark {background-color: #E50019; color: #FFFFFF;}
+.about-change-quality-box .heading-06 mark span {padding: 0 1rem;}
 .about-us-client-logos {display: flex; align-items: center; gap: 7rem; padding: 2rem 5rem; background: rgb(255,255,255); background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(191,191,191,1) 80%);}
 
 /* Mission Vision Section */
-.mission-vision-section {padding-top: 5.7rem; padding-bottom: 13.7rem;}
+.mission-vision-section {padding-top: 5.7rem; padding-bottom: 13.7rem; position: relative;}
+.mission-vision-section:before {content: ""; background-image: url(../img/mission_vision_grey_circle_bg.png); display: block; width: 19%; padding-bottom: 16%; position: absolute; top: 0; left: 0; background-repeat: no-repeat; background-position: left bottom; background-size: contain;}
 .mission-vision-section .sm-container {color: #2E3037;}
 .mission-vision-content {display: grid; grid-template-columns: 50% 50%; column-gap: 6rem;}
 .mission-vision-tab-title {display: flex;}
@@ -242,8 +244,37 @@ html {font-size: 62.5%;
 .mission-vision-img {justify-items: flex-end; align-content: flex-end; position: relative;}
 .mission-vision-img-circle {display: block; width: 21.8rem; height: 21.8rem; background-color: rgb(229, 0, 25, 0.8); border-radius: 50%; position: absolute; bottom: 0; left: 10rem;}
 
-.our-team-section .sm-container {background-image: url(../img/our_team_bg_img.png); background-repeat: no-repeat; display: grid; grid-template-columns: 50% 50%;}
+
+/* Our Team Section */
+.our-team-section {position: relative;}
+.our-team-section:after {content: ""; background-image: url(../img/our_team_pink_circle_bg.png); display: block; width: 14%; padding-bottom: 15%; position: absolute; bottom: 0; right: 0; background-repeat: no-repeat; background-position: left bottom; background-size: contain;}
+.our-team-section .sm-container {background-image: url(../img/our_team_bg_img.png); background-repeat: no-repeat; display: grid; grid-template-columns: 50% 50%; padding-top: 6.3rem; padding-bottom: 11.2rem;}
 .our-team-content {grid-column: 2;}
-.our-team-title {font-size: 4.2rem; color: #FFFFFF;}
-.about-our-team {background-image: url(../img/about_our_team_bg_design.png); background-repeat: no-repeat;}
-.about-our-team .text {width: 20%; color: #FFFFFF;}
+.our-team-title {font-size: 4.2rem; color: #FFFFFF; margin-bottom: 2.6rem; width: 75%;}
+.about-our-team-img {position: relative;}
+.about-our-team-info {color: #FFFFFF; width: 55.5%; position: absolute; top: 3.4rem; left: 3.2rem;}
+
+/* Our Team Media Slider Section */
+.our-team-media-slider-section {display: flex; align-items: center; background-color: #E50019;}
+.team-media-slider-text {font-size: 4.1rem; color: rgb(255, 255, 255, 0.38); width: max-content !important; padding-block: 2rem; padding-inline: 2rem;}
+.team-media-slider-text.slick-slide.slick-current {color: rgb(255, 255, 255, 0.65);}
+
+/* Reviews Section */
+.reviews-section {padding-top: 9.4rem; padding-bottom: 10.5rem;}
+.reviews-section .heading-05 {margin-left: 3.5rem;}
+.reviews-content-slider {display: grid; grid-template-columns: repeat(3, 1fr); gap: 3.1rem; margin-top: 2rem;}
+.reviews-content-slider.slick-slider .slick-track, .reviews-content-slider.slick-slider .slick-list {display: flex; gap: 3.1rem; padding: 1rem 0;}
+.reviews-section .slick-arrow {font-size: 0; position: absolute;}
+.reviews-section .slick-arrow.slick-prev {background-image: url(../img/reviews_slider_prev_arrow.png); background-repeat: no-repeat; background-color: transparent; width: 5%; padding-bottom: 7%; top: -90px; right: 60px;}
+.reviews-section .slick-arrow.slick-next {background-image: url(../img/reviews_slider_next_arrow.png); background-repeat: no-repeat; background-color: transparent; width: 5%; padding-bottom: 7%; top: -90px; right: 0;}
+.reviews-section .slick-arrow.slick-disabled {opacity: 0.5;}
+.review-box {display: grid !important; justify-items: center; padding: 10.4rem 5.5rem 4.5rem 5.5rem; box-shadow: 0px 0px 20px 0px #707070; border-radius: 3.3rem; border: 1px solid #707070;}
+.review-text {text-align: center;}
+.review-text:before {content: ""; background-image: url(../img/about_us_review_design_icon.png); background-repeat: no-repeat; display: block; width: 3%; padding-bottom: 4%; position: absolute; top: 65px;}
+.reviewer-name {font-size: 2.3rem; margin-top: 2.8rem; margin-bottom: 1rem;}
+
+/* About Us Ending Line Section */
+.about-us-ending-line-section {background: rgb(255,255,255); background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(191,191,191,1) 100%); padding: 1.5rem 0;}
+.about-us-ending-line-section .heading-04 {text-align: center; line-height: 1.2;}
+.about-us-ending-line-section .heading-04:first-child {color: #2E3037;}
+.about-us-ending-line-section .heading-04:last-child {color: #E50019;}
