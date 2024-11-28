@@ -78,8 +78,8 @@
     
     /* .about-our-team-info {width: 86%; left: 3rem;} */
     .our-team-content {justify-items: center;}
-    .reviews-section .slick-arrow.slick-prev {width: 6%; padding-bottom: 12%;}
-    .reviews-section .slick-arrow.slick-next {width: 6%; padding-bottom: 12%;}
+    .reviews-section .slick-arrow.slick-prev {width: 6%; padding-bottom: 13%;}
+    .reviews-section .slick-arrow.slick-next {width: 6%; padding-bottom: 13%;}
     .review-text:before {top: 30px; padding-bottom: 6%;}
     .review-box {box-shadow: 0px 0px 10px 0px #707070;}
 }
@@ -141,7 +141,7 @@
 
     /* About Us Page */
     .reviews-section .sm-container {width: 80%;}
-    .reviews-section .slick-arrow.slick-prev {right: 45px; top: -70px;}
+    .reviews-section .slick-arrow.slick-prev {right: 55px; top: -70px;}
     .reviews-section .slick-arrow.slick-next {top: -70px;}
 }
 
@@ -233,7 +233,7 @@
     .about-us-banner-content {top: 60%;}
     .about-us-banner-content .heading-03 {-webkit-text-stroke: 2px; margin-left: 22rem;}
     .review-box img {width: 10rem;}
-
+    .reviews-section .slick-arrow.slick-prev {right: 40px;}
     .our-team-section .sm-container{width: 90%;}
     .team-bg {height: 610px; object-fit: cover; object-position: 57%; border-radius: 50px;}
     .our-team-content{right: 5%;}
@@ -365,8 +365,9 @@
     .mission-vision-tab-title .heading-06 {padding: 1.5rem 1.5rem;}
     .mission-vision-tab-title .heading-06.active:after {left: 11rem;}
     .reviews-section {padding-top: 5rem; padding-bottom: 5rem;}
-    .reviews-section .slick-arrow.slick-prev {top: -55px; right: 40px; width: 12%; padding-bottom: 20%;}
-    .reviews-section .slick-arrow.slick-next {top: -55px; width: 12%; padding-bottom: 20%;}
+    .reviews-section .sm-container {width: 90%;}
+    .reviews-section .slick-arrow.slick-prev {top: -55px; right: 40px; width: 6%; padding-bottom: 12%;}
+    .reviews-section .slick-arrow.slick-next {top: -55px; width: 6%; padding-bottom: 12%;}
 
     /* Thank You Page */
     .thank-you-section {padding: 10rem 0;}
@@ -381,10 +382,12 @@
     /* Our Services Page */
     .we-provide-content .heading-04 {font-size: 5rem;}
     .we-provide-content .heading-02 {font-size: 7rem;}
-    .our-team-content{ position: static;transform: none;}
-    .team-img{height: 450px;}
-    .team-bg{ display: none;}
-    .our-team-title{color: #2E3037;}
+
+    /* About Us Page */
+    .our-team-content {position: static; transform: none; margin: 0 auto;}
+    .team-img {height: 450px;}
+    .team-bg { display: none;}
+    .our-team-title {color: #2E3037;}
 
     /* About Us Page */
     .mission-vision-img-circle {width: 30rem; height: 30rem; left: 0rem;}
@@ -398,6 +401,7 @@
 
     /* About Us Page */
     .client-logo-box img {width: 100%;}
+    .reviews-section .slick-arrow.slick-prev {right: 30px;}
 }
 
 @media screen and (max-width: 400px){
@@ -409,4 +413,7 @@
 
     /* About Us Page */
     .mission-vision-img-circle {width: 20rem; height: 20rem;}
+    .reviews-section .heading-05 {margin-left: 3rem;}
+    .reviews-section .slick-arrow.slick-prev {width: 8%;}
+    .reviews-section .slick-arrow.slick-next {width: 8%;}
 }
