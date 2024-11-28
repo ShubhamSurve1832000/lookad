@@ -123,6 +123,15 @@ $(document).ready(function () {
           dots: false
         }
       },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: false,
+          dots: false
+        }
+      },
     ]
   });
 
@@ -167,6 +176,19 @@ $(document).ready(function () {
           arrows: false,
           infinite: true,
           slidesToShow: 6,
+          cssEase: 'linear',
+          autoplay: true,
+          autoplaySpeed: 0,
+          speed: 5000,
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          dots: false,
+          arrows: false,
+          infinite: true,
+          slidesToShow: 3,
           cssEase: 'linear',
           autoplay: true,
           autoplaySpeed: 0,
