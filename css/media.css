@@ -335,10 +335,12 @@
     .advertisements-section .television-advertisement .slick-arrow.slick-next {bottom: -3.5rem;}
     .advertisements-section .outdoor-advertisement .slick-arrow.slick-prev {bottom: -4rem;}
     .advertisements-section .outdoor-advertisement .slick-arrow.slick-next {bottom: -4rem;}
-    .advertisements-section .digital-media-advertisement .slick-arrow.slick-prev {bottom: 4rem;}
-    .advertisements-section .digital-media-advertisement .slick-arrow.slick-next {bottom: 4rem;}
+    .advertisements-section .digital-media-advertisement .slick-arrow.slick-prev {bottom: -3rem;}
+    .advertisements-section .digital-media-advertisement .slick-arrow.slick-next {bottom: -3rem;}
     .digital-media-logos img {width: 3rem;}
     .brands-needs-section {padding-top: 6rem; padding-bottom: 4rem;}
+    .brands-needs-section .lg-container {width: 90%;}
+    .media-steps-container {margin-left: 3rem; margin-top: 1rem;}
     .brands-needs-section .heading-04 {font-size: 5.8rem;}
     .media-procedure {grid-template-columns: 30% 70%; clip-path: polygon(calc(100% - 6rem) 0%, 100% 50%, calc(100% - 6rem) 100%, 0% 100%, 11% 50%, 0% 0%);}
     .media-step-num-box {padding-left: 5.5rem;}
