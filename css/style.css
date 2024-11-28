@@ -226,7 +226,7 @@ html {font-size: 62.5%;
 .about-change-quality-box .heading-06 {text-align: center; line-height: 1.5; align-self: end;}
 .about-change-quality-box .heading-06 mark {background-color: #E50019; color: #FFFFFF;}
 .about-change-quality-box .heading-06 mark span {padding: 0 1rem;}
-.about-us-client-logos {display: flex; align-items: center; gap: 7rem; padding: 2rem 5rem; background: rgb(255,255,255); background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(191,191,191,1) 80%); justify-content: center;}
+.about-us-client-logos .slick-track {display: flex; align-items: center; gap: 7rem; padding: 2rem 5rem; background: rgb(255,255,255); background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(191,191,191,1) 80%); justify-content: center;}
 
 /* Mission Vision Section */
 .mission-vision-section {padding-top: 5.7rem; padding-bottom: 13.7rem; position: relative;}
@@ -251,11 +251,15 @@ html {font-size: 62.5%;
 /* Our Team Section */
 .our-team-section {position: relative;}
 .our-team-section:after {content: ""; background-image: url(../img/our_team_pink_circle_bg.png); display: block; width: 14%; padding-bottom: 15%; position: absolute; bottom: 0; right: 0; background-repeat: no-repeat; background-position: left bottom; background-size: contain;}
-.our-team-section .sm-container {background-image: url(../img/our_team_bg_img.png); background-repeat: no-repeat; display: grid; grid-template-columns: 50% 50%; padding-top: 6.3rem; padding-bottom: 11.2rem;}
-.our-team-content {grid-column: 2;}
-.our-team-title {font-size: 4.2rem; color: #FFFFFF; margin-bottom: 2.6rem; width: 75%;}
+.our-team-section .sm-container {width: 119.8rem;margin-top: 6.3rem; margin-bottom: 11.2rem;border-radius: 55px;position: relative;}
+.our-team-content {grid-column: 2;width: 41.2rem;    position: absolute;
+    right: 14%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.our-team-title {font-size: 4.2rem; color: #FFFFFF; margin-bottom: 2.6rem;}
 .about-our-team-img {position: relative;}
-.about-our-team-info {color: #FFFFFF; width: 55.5%; position: absolute; top: 3.4rem; left: 3.2rem;}
+.about-our-team-info {color: #FFFFFF;position: absolute; top: 0; left: 0;width: 100%;height: 100%;padding: 3.4rem 3.2rem;padding-bottom: 0;}
 
 /* Our Team Media Slider Section */
 .our-team-media-slider-section {display: flex; align-items: center; background-color: #E50019;}
@@ -284,8 +288,8 @@ html {font-size: 62.5%;
 
 /* Thank You Page  */
 /* Thank You Section */
-.thank-you-section {margin-top: 20rem;}
-.thank-you-section .lg-container {width: 50%;}
+.thank-you-section {background: rgb(255, 255, 255); background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(191, 191, 191, 1) 100%); padding: 20rem 0;}
+.thank-you-section .lg-container {width: 70%;}
 .thank-you-heading {color: #E50019;}
 .thank-you-text {font-size: 3rem; line-height: 1.5;}
 .thank-you-map-container {margin-top: 5rem;}
