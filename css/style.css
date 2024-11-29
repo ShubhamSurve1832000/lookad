@@ -207,7 +207,7 @@ html {font-size: 62.5%;
 .media-step-content-title {color: #2E3037; margin-bottom: 1rem;}
 .media-step-content-title span {color: #E50019;}
 .step-box-shadow-design {position: relative;}
-.media-step-num-box:after {content: ""; background-image: url(./img/step_design.png); position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-size: 100%; background-repeat: no-repeat; mix-blend-mode: multiply; background-position: -73px -116px;}
+.step-box-shadow-design:after {content: ""; background-image: url(../img/step_design.png); position: absolute; top: -7rem; left: 0; right: 0; bottom: 0; background-size: 120%; background-repeat: no-repeat; mix-blend-mode: multiply; background-position: -10rem -11rem;}
 
 /* About Us Page */
 /* About Us Banner Section */
