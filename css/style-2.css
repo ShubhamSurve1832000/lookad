@@ -44,9 +44,9 @@
 .enquire-whatsapp-container .contact-form-box .heading-05{color: #fff;}
 .enquire-whatsapp-container .contact-form-box .close{position: absolute;right: 12%;top: 5%;font-size: 4rem;cursor: pointer;color: #fff;}
 .close{width: 25px;height: 20px;}
-.close::after ,.close::before{content: ""; position: absolute;display: block;width: 100%;height: 2px;background: #fff;margin: 4.5px 0;transform-origin: 12px 1px;}
-.close::after{transform: rotate(45deg);}
-.close::before{transform: rotate(-45deg);}
+.close::after ,.close::before , .close-popup::after , .close-popup::before   {content: ""; position: absolute;display: block;width: 100%;height: 2px;background: #fff;margin: 4.5px 0;transform-origin: 12px 1px;}
+.close::after , .close-popup::after{transform: rotate(45deg);}
+.close::before , .close-popup::before{transform: rotate(-45deg);}
 
 /* Why Us Page */
 .why-us-section .heading-01::after{top: 45%;left: -5%;}
@@ -81,13 +81,20 @@
 .banner-content{position: relative;}
 .banner-content::before{content: ''; position: absolute; width: 49.3rem; height: 49.4rem; border-radius: 100%;left: 8%; bottom: -50%;background-color: #E50019;z-index: -1;}
 
-.decades-brands-section .brands-circle{position: relative; width: 43rem; height: 43rem; border-radius: 100%; box-shadow: 25px 15px 40px 20px rgba(0, 0, 0, 0.3)}
+.decades-brands-section .brands-circle{position: absolute; width: 43rem; height: 43rem; border-radius: 100%;}
 .decades-brands-section .circle{position: absolute; right: 1.7rem; left: 1.7rem; top: 1.7rem; bottom: 1.7rem;border-radius: 100%;display: flex; align-items: center; justify-content: center; flex-direction: column;background-color: #2E3037;text-align: center; padding: 6rem;}
-.decades-brands-section .brands-circle:nth-child(2){margin-top: 20rem;}
+.decades-brands-section .brands-circle:nth-child(2){left: 25px;top: 50px;}
 .decades-brands-section .brands-circle:nth-child(2) .circle{background-color: #E50019;padding: 4rem;}
-.decades-brands-section .lg-container{display: flex; justify-content: space-between; padding: 4.5rem;}
+.decades-brands-section .brands-circle:nth-child(2)::before{content: '';background-image: url('../img/1.png'); background-repeat: no-repeat;  position: absolute;}
+.decades-brands-section .lg-container{display: flex; justify-content: space-between; padding: 4.5rem;position: relative;}
 .decades-brands-section .brands-circle h2{font-size: 3.9rem;font-weight: 700;color: #fff;}
 .decades-brands-section .brands-circle p{color: #fff; font-size: 2.2rem; line-height: 1.5; margin-top: 3rem;}
+
+.contact-form-box.pop-up{display: none;}
+.contact-form-box.pop-up.active{position: fixed; display: block; z-index: 9999;width: 40%;margin: 0 auto;right: 50%;padding-block: 5rem;top: 50%;transform: translate(50%, -50%);padding-inline: 6.8rem;}
+.pop-up .close-popup{position: absolute;right: 5%;top: 5%;font-size: 4rem;cursor: pointer;color: #fff;    width: 25px;
+    height: 20px;}
+.contact-form-box .heading-05{color: #fff;}
 
 @media screen and (max-width: 1700px){
     .contact-form-container .contact-form-box{padding-inline: 7rem; padding-block: 5rem;}

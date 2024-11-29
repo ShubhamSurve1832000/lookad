@@ -41,7 +41,7 @@
             <button class="enquire-now-btn heading-06">Enquire Now</button>
             <a class="whatsapp-icon" href="javascript:;"><img src="img/enquire_whatsapp_icon.png" alt=""></a>
             <div class="overlay"></div>
-            <div class="contact-form-box">
+            <div class="contact-form-box pop-up-1">
                 <span class="close"></span>
                 <h2 class="heading-05">Send Us A Message</h2>
                 <form class="contact-form" action="javascript:;">
@@ -66,10 +66,47 @@
                         <label>Phone Number*</label>
                         <input type="tel" value="+91">
                     </div>
-<div class="input-box">
+                    <div class="input-box">
                         <label>Name of Company*</label>
                         <input type="text" placeholder="Enter your company name">
                     </div>
+                    <div class="input-box">
+                        <label>Your Message</label>
+                        <textarea id="w3review" name="w3review" rows="1" cols="50"
+                            placeholder="Write your message"></textarea>
+                    </div>
+                    <button class="read-more-btn"><span class="read-more-span"></span>Submit</button>
+                </form>
+            </div>
+        </div>
+        
+        <div>
+            <div class="overlay-2"></div>
+            <div class="contact-form-box pop-up ">
+                <span class="close-popup"></span>
+                <h2 class="heading-05">Send Us A Message</h2>
+                <form class="contact-form" action="javascript:;">
+                    <div class="input-box">
+                        <label for="nature-of-query">Nature of Query*</label>
+                        <select id="nature-of-query" class="form-select">
+                            <option value="" disabled hidden selected style="color: gray;">Select Query</option>
+                            <option value="general">New Brand Enquiry </option>
+                            <option value="technical">General Enquiry </option>
+                            <option value="billing">Job Enquiry</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <label>Name*</label>
+                        <input type="text" placeholder="Enter your first name">
+                    </div>
+                    <div class="input-box">
+                        <label>Email*</label>
+                        <input type="email" placeholder="Enter your email">
+                    </div>
+                    <div class="input-box">
+                        <label>Phone Number*</label>
+                        <input type="tel" value="+91">
+                    </div>                    
                     <div class="input-box">
                         <label>Your Message</label>
                         <textarea id="w3review" name="w3review" rows="1" cols="50"
@@ -102,12 +139,11 @@
                 <div class="newspaper-advertisement">
                     <div class="advertisement-content">
                         <h5 class="heading-05">Newspaper <span class="heading-05">Advertisements</span></h5>
-                        <p class="text"><a href="javascript:;">Book Display Ads </a> | <a href="javascript:;">Book
-                                Public Notice Ads </a>| <a href="javascript:;">Book Impact Display Ads (Front Page)</a>
-                            /<a href="javascript:;"> Back Page </a>/<a href="javascript:;"></a> Quarter Page /<a
-                                href="javascript:;"> Cover on Cover </a>|<a href="javascript:;"> Book Obituary Ads</a> |
-                            <a href="javascript:;">Book Property Ads</a> | <a href="javascript:;">Book
-                                Financial Results Ads (UFR/AFR)</a> |<a href="javascript:;"> Book Advertorials</a>
+                        <p class="text"><a class="popUp-link" id="pop-up-1" href="javascript:;">Book Display Ads </a> | <a class="popUp-link" href="javascript:;">Book
+                                Public Notice Ads </a>| <a class="popUp-link" href="javascript:;">Book Impact Display Ads (Front Page)</a>
+                            /<a class="popUp-link" href="javascript:;"> Back Page / Quarter Page / Cover on Cover </a>|<a class="popUp-link" href="javascript:;"> Book Obituary Ads</a> |
+                            <a class="popUp-link" href="javascript:;">Book Property Ads</a> | <a class="popUp-link" href="javascript:;">Book
+                                Financial Results Ads (UFR/AFR)</a> |<a class="popUp-link" href="javascript:;"> Book Advertorials</a>
                         </p>
                         <p class="text">More than our vision to integrate traditional & digital channels, we are about
                             optimizing a curated plan attuned to the brand's objectives. More than our knack for
@@ -292,11 +328,13 @@
                         </div>
                         <div class="contact-info-box">
                             <i><img src="img/footer_mail_icon.png" alt=""></i>
-                            <p><a class="text" href="tel:+919830030877">+91 98300 30877 / </a><a class="text" href="tel:+919830400021">+91 98304 00021</a></p>
+                            <p><a class="text" href="tel:+919830030877">+91 98300 30877 / </a><a class="text"
+                                    href="tel:+919830400021">+91 98304 00021</a></p>
                         </div>
                         <div class="contact-info-box">
                             <i><img src="img/footer_location_icon.png" alt=""></i>
-                            <a class="text" href="javascript:;">17, Paul Mansions 6, Bishop Lefroy Road, Kolkata - 700 020</a>
+                            <a class="text" href="javascript:;">17, Paul Mansions 6, Bishop Lefroy Road, Kolkata - 700
+                                020</a>
                         </div>
                     </div>
                     <ul class="footer-social-media">
