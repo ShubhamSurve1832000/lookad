@@ -199,12 +199,14 @@ html {font-size: 62.5%;
 .brands-needs-section .heading-04:first-child {color: rgb(191, 191, 191, 1);}
 .media-steps-container {display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 5rem;}
 .media-procedure {display: grid; grid-template-columns: 31% 69%; padding-right: 2rem; padding-top: 3rem; padding-bottom: 3rem; clip-path: polygon(calc(100% - 6rem) 0%, 100% 50%, calc(100% - 6rem) 100%, 0% 100%, 11% 50%, 0% 0%); margin-left: -4.4rem;}
-.media-step-num-box {background-color: #E50019; clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 26% 50%, 0% 0%); display: flex; flex-direction: column; align-items: center; justify-content: center; padding-left: 4.5rem;}
+.media-step-num-box {background-color: #E50019; clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 26% 50%, 0% 0%); display: flex; flex-direction: column; align-items: center; justify-content: center; padding-left: 4.5rem; height: 100%;}
 .media-step-num-box .step-num {font-size: 4rem; color: #FFFFFF; line-height: 0.8; text-transform: uppercase;}
 .media-step-num-box .step-num:first-child {font-size: 8rem; font-weight: 100;}
 .media-step-content {padding-left: 2rem;}
 .media-step-content-title {color: #2E3037; margin-bottom: 1rem;}
 .media-step-content-title span {color: #E50019;}
+.step-box-shadow-design {position: relative;}
+.media-step-num-box:after {content: ""; background-image: url(./img/step_design.png); position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-size: 100%; background-repeat: no-repeat; mix-blend-mode: multiply; background-position: -73px -116px;}
 
 /* About Us Page */
 /* About Us Banner Section */
