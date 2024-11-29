@@ -81,15 +81,17 @@
 .banner-content{position: relative;}
 .banner-content::before{content: ''; position: absolute; width: 49.3rem; height: 49.4rem; border-radius: 100%;left: 8%; bottom: -50%;background-color: #E50019;z-index: -1;}
 
-.decades-brands-section .brands-circle{position: absolute; width: 43rem; height: 43rem; border-radius: 100%;}
+.decades-brands-section .brands-circle{position: absolute; width: 28%; height: 53%; border-radius: 100%;}
 .decades-brands-section .circle{position: absolute; right: 1.7rem; left: 1.7rem; top: 1.7rem; bottom: 1.7rem;border-radius: 100%;display: flex; align-items: center; justify-content: center; flex-direction: column;background-color: #2E3037;text-align: center; padding: 6rem;}
-.decades-brands-section .brands-circle:nth-child(2){left: 25px;top: 50px;}
-.decades-brands-section .brands-circle:nth-child(2) .circle{background-color: #E50019;padding: 4rem;}
+.decades-brands-section .brands-circle:nth-child(2){left: 4.5%;top: 8%;}
+.decades-brands-section .brands-circle:nth-child(3) .circle{background-color: #E50019;padding: 4rem;}
+.decades-brands-section .brands-circle:nth-child(3){right: 50%;left: 50%;bottom: 11%;transform: translate(-50%);}
+.decades-brands-section .brands-circle:nth-child(4){right: 4.5%;top: 8%;}
 .decades-brands-section .brands-circle:nth-child(2)::before{content: '';background-image: url('../img/1.png'); background-repeat: no-repeat;  position: absolute;}
 .decades-brands-section .lg-container{display: flex; justify-content: space-between; padding: 4.5rem;position: relative;}
 .decades-brands-section .brands-circle h2{font-size: 3.9rem;font-weight: 700;color: #fff;}
-.decades-brands-section .brands-circle p{color: #fff; font-size: 2.2rem; line-height: 1.5; margin-top: 3rem;}
-
+.decades-brands-section .brands-circle p{color: #fff; font-size: 2.2rem; line-height: 1.5; margin-top: 2rem;}
+.decades-brands-section .brands-circle img{width: 80%;}
 .contact-form-box.pop-up{display: none;}
 .contact-form-box.pop-up.active{position: fixed; display: block; z-index: 9999;width: 40%;margin: 0 auto;right: 50%;padding-block: 5rem;top: 50%;transform: translate(50%, -50%);padding-inline: 6.8rem;}
 .pop-up .close-popup{position: absolute;right: 5%;top: 5%;font-size: 4rem;cursor: pointer;color: #fff;    width: 25px;
@@ -118,8 +120,8 @@
     .banner-content .heading-01{font-size: 15rem;}
     .banner-content .heading-03{font-size: 8.8rem;}
     .banner-content::before{top:50%;left: 50%; transform: translate(-50%, -50%);width:40rem; height: 40rem;}
-    
-    
+    .decades-brands-section .lg-container{width: 100%;}
+    .decades-brands-section .brands-circle p{line-height: 1.2;}
 }
 
 @media screen and (max-width: 767px){
@@ -136,6 +138,12 @@
     .banner-content .heading-03{font-size: 6.8rem;}
     .banner-content .heading-05{font-size: 4.3rem;}
     .footer-banner-section img{height: 50vh;object-fit: cover;}
+    .decades-brands-section .lg-container{padding: 2.5rem;}
+    .decades-brands-section .circle , .decades-brands-section .brands-circle:nth-child(3) .circle{padding: 2rem;}
+    .decades-brands-section .brands-circle p{font-size: 1.5rem;}
+    .decades-brands-section .brands-circle{    width: 29%;height: 54%;}
+    
+
 }
 
 @media screen and (max-width: 500px){
@@ -160,12 +168,20 @@
     .why-us-section .contact-banner .heading-01::before{left: 75%; top: auto;}
     .why-us-section .contact-banner .heading-01::after{top: 100%;left: -10%;}
     .decades-brands-section .brands-flex .heading-01{font-size: 23rem;}
-    .decades-brands-section .md-container .heading{    font-size: 11.7rem;}
+    .decades-brands-section .md-container .heading{    font-size: 9.7rem;}
     .banner-content .heading-01{font-size: 9rem;}
     .banner-content .heading-03{font-size: 6.8rem;}
     .banner-content .heading-05{font-size: 4.3rem;}
-
+    .decades-brands-section .lg-container{align-items: center;display: flex;flex-direction: column;position: static;gap: 3rem;}
+    .decades-brands-section .lg-container > img{display: none;}
+    .decades-brands-section .brands-circle{position: static;}
     .enquire-whatsapp-container .contact-form-box{width: 100%;}
+    .decades-brands-section .brands-circle {width: 75%;height: 80%;}
+    .decades-brands-section .circle {position: static;height: 40rem;width: 40rem;padding: 3rem;margin: 0 auto;}
+    .decades-brands-section .brands-circle:nth-child(3){transform: translate(0);}
+    .decades-brands-section .brands-circle p {font-size: 2.5rem;}
+    .decades-brands-section::after{width: 100%; background-size: 65%; height:15%}
+    .decades-brands-section::before{width: 70%; background-size: 100%; height:100%}
 
     .footer-banner-section .banner-content{text-align: center;}
 
