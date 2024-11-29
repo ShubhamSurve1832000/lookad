@@ -21,7 +21,7 @@
     /* About Us Page */
     .about-our-team-img {justify-items: center;}
     .mission-vision-content {grid-template-columns: 55% 45%;}
-    .mission-vision-img-circle {left: 0rem;}
+    .mission-vision-img-circle {left: -10rem;}
     .mission-tab-list li:before, .vision-tab-list li:before {background-size: 85%;}
     /* .our-team-section .sm-container {padding-bottom: 22.2rem;}
     .about-our-team-img img {width: 49rem;}
@@ -46,6 +46,7 @@
     /* Index Page */
     .home-banner-section span {top: 53%;}
     .home-banner-content {top: 55%;}
+    .home-banner-content .heading-02 {-webkit-text-stroke: 2px;}
     .tv-monitoring-section .sm-container {gap: 2rem;}
     .clients-logo-slider .slick-dots {gap: 1.4rem;}
     .clients-logo-slider .slick-dots li button {width: 1.2rem; height: 1.2rem;}
@@ -56,6 +57,7 @@
     .footer .md-container {grid-template-columns: 35% 35% 30%;}
 
     /* Our Services Page */
+    .our-services-banner-content .heading-03 {-webkit-text-stroke: 2px;}
     .advertisements-section .slick-arrow {border-width: 3px 3px 0 0;}
     .advertisements-section .newspaper-advertisement .slick-arrow.slick-prev {bottom: 8rem;}
     .advertisements-section .newspaper-advertisement .slick-arrow.slick-next {bottom: 8rem;}
@@ -69,6 +71,7 @@
     .digital-media-logos img {width: 12rem;}
 
     /* About Us Page */
+    .about-us-banner-content .heading-03 {-webkit-text-stroke: 2px;}
     .about-change-qualities {margin: 5rem 10rem;}
     .about-us-client-logos img {width: 12rem;}
     .mission-vision-tab-title .heading-06 {padding: 2rem 6rem; width: 30rem; text-align: center;}
@@ -232,6 +235,7 @@
     .about-us-sm-circle {width: 15rem; height: 15rem; top: 50%; left: 63%;}
     .about-us-banner-content {top: 60%;}
     .about-us-banner-content .heading-03 {-webkit-text-stroke: 2px; margin-left: 22rem;}
+    .mission-vision-img-circle {left: -7rem; bottom: -4rem;}
     .review-box img {width: 10rem;}
     .reviews-section .slick-arrow.slick-prev {right: 40px;}
     .our-team-section .sm-container{width: 90%;}
@@ -361,7 +365,7 @@
     .mission-vision-section {padding-bottom: 4rem;}
     .mission-vision-content {display: block;}
     .mission-vision-img {display: flex; justify-content: center; margin-top: 7rem;}
-    .mission-vision-img-circle {width: 35rem; height: 35rem; left: 8rem;}
+    .mission-vision-img-circle {width: 35rem; height: 35rem; left: 0rem;}
     .mission-vision-tab-title .heading-06 {padding: 1.5rem 1.5rem;}
     .mission-vision-tab-title .heading-06.active:after {left: 11rem;}
     .reviews-section {padding-top: 5rem; padding-bottom: 5rem;}
@@ -390,7 +394,7 @@
     .our-team-title {color: #2E3037;}
 
     /* About Us Page */
-    .mission-vision-img-circle {width: 30rem; height: 30rem; left: 0rem;}
+    .mission-vision-img-circle {width: 30rem; height: 30rem; left: 0rem; bottom: -10rem;}
 }
 
 @media screen and (max-width: 500px){
@@ -414,7 +418,7 @@
     .about-decades-content .sm-circle {top: 40%; left: 70%;}
 
     /* About Us Page */
-    .mission-vision-img-circle {width: 20rem; height: 20rem;}
+    .mission-vision-img-circle {width: 20rem; height: 20rem; bottom: -6rem;}
     .reviews-section .heading-05 {margin-left: 3rem;}
     .reviews-section .slick-arrow.slick-prev {width: 8%;}
     .reviews-section .slick-arrow.slick-next {width: 8%;}

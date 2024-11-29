@@ -181,7 +181,14 @@ $(document).ready(function () {
   // About Us Client Logos  Slider
   
   $('.about-us-client-logos').slick({
+    dots: false,
+    arrows: false,
+    infinite: true,
     slidesToShow: 8,
+    cssEase: 'linear',
+    autoplay: true,
+    autoplaySpeed: 0,
+    speed: 5000,
     responsive: [
       {
         breakpoint: 1023,
