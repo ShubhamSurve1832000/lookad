@@ -82,6 +82,13 @@ $(document).ready(function () {
     ]
   });
 
+  $(".prev-btn").click(function(){
+    $(".newspaper-advertisement-slider .slick-prev").trigger("click")
+  })
+  $(".next-btn").click(function(){
+    $(".newspaper-advertisement-slider .slick-next").trigger("click")
+  })
+
   // Television Advertisement Slider
   $('.television-advertisement-slider').slick({
     dots: false,

@@ -394,6 +394,8 @@
 }
 
 @media screen and (max-width: 500px){
+    .page-banner {height: 250px;}
+
     /* Index Page */
     .about-decades-section .sm-container {width: 80%;}
     .about-decades-section .sm-container .lg-circle {width: 23rem; height: 23rem; left: 5%;}
