@@ -46,7 +46,7 @@ html {font-size: 62.5%;
 .overlay.active {background-color: rgba(0, 0, 0, .5);position: fixed;top: 0;left: 0;right: 0;bottom: 0;z-index: 9999;}
 
 /* Header */
-.header {position: fixed; top: 0; left: 0; right: 0; width: 100%; padding: 2rem 0; border-bottom: 1px solid #707070; z-index: 9999;}
+.header {position: fixed; top: 0; left: 0; right: 0; width: 100%; padding: 2rem 0; border-bottom: 1px solid #707070; z-index: 99;}
 .header.active {background-color: rgb(46, 48, 55, 0.9); border: none;}
 .header .lg-container {display: flex; align-items: center; justify-content: space-between;}
 .menu-btn {display: none;}

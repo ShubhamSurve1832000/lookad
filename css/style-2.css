@@ -37,7 +37,7 @@
 .address-box .box{margin-top: 3rem;}
 .map-box .md-container{margin-block: 6rem;}
 
-.enquire-whatsapp-container .contact-form-box{transform: translateX(100%);transition: 1s ease all;position: fixed;right: 0;top: 20%;width: 70rem;padding-top: 3rem; padding-inline: 4rem; z-index: 9999;padding-right: 10rem;padding-bottom: 6rem; border: 4px solid #E9E8E8;}
+.enquire-whatsapp-container .contact-form-box{transform: translateX(100%);transition: 1s ease all;position: fixed;right: 0;top: 6%;width: 70rem;padding-top: 3rem; padding-inline: 4rem; z-index: 9999;padding-right: 10rem;padding-bottom: 6rem; border: 4px solid #E9E8E8;}
 .enquire-whatsapp-container .contact-form .input-box{margin-block: 1rem;}
 .contact-form label {font-size: 2.5rem;}
 .enquire-whatsapp-container .contact-form-box.active{transform: translate(10%);}
@@ -56,7 +56,7 @@
 .decades-brands-section .brands-flex{display: flex; justify-content: space-between;align-items: end; gap: 3rem;margin-top: 1rem;}
 .decades-brands-section .brands-flex .heading-01{color: #A1A2A5; font-size: 29.2rem;line-height: 0.9;}
 .decades-brands-section::before{content:"";position: absolute; right: 0; top: 0; width: 30%; height: 100%;background-image:url(../img/Intersection_9.png); z-index: -1; background-repeat: no-repeat;}
-.decades-brands-section::after{content:"";position: absolute; left: 0; bottom: 0; width: 30%; height: 50%;background-image:url(../img/Intersection_14.png); z-index: -1; background-repeat: no-repeat;}
+.decades-brands-section::after{content:"";position: absolute; left: 0; bottom: 0; width: 30%; height: 29%;background-image:url(../img/Intersection_14.png); z-index: -1; background-repeat: no-repeat;}
 
 .our-superpowers-section{padding-block: 8rem;}
 .our-superpowers-section .sm-container .grid-container{display: grid; grid-template-columns: repeat(2 , 1fr); gap: 5rem;}
@@ -81,6 +81,13 @@
 .banner-content{position: relative;}
 .banner-content::before{content: ''; position: absolute; width: 49.3rem; height: 49.4rem; border-radius: 100%;left: 8%; bottom: -50%;background-color: #E50019;z-index: -1;}
 
+.decades-brands-section .brands-circle{position: relative; width: 43rem; height: 43rem; border-radius: 100%; box-shadow: 25px 15px 40px 20px rgba(0, 0, 0, 0.3)}
+.decades-brands-section .circle{position: absolute; right: 1.7rem; left: 1.7rem; top: 1.7rem; bottom: 1.7rem;border-radius: 100%;display: flex; align-items: center; justify-content: center; flex-direction: column;background-color: #2E3037;text-align: center; padding: 6rem;}
+.decades-brands-section .brands-circle:nth-child(2){margin-top: 20rem;}
+.decades-brands-section .brands-circle:nth-child(2) .circle{background-color: #E50019;padding: 4rem;}
+.decades-brands-section .lg-container{display: flex; justify-content: space-between; padding: 4.5rem;}
+.decades-brands-section .brands-circle h2{font-size: 3.9rem;font-weight: 700;color: #fff;}
+.decades-brands-section .brands-circle p{color: #fff; font-size: 2.2rem; line-height: 1.5; margin-top: 3rem;}
 
 @media screen and (max-width: 1700px){
     .contact-form-container .contact-form-box{padding-inline: 7rem; padding-block: 5rem;}
