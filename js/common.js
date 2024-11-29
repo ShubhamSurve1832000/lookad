@@ -14,9 +14,16 @@ $(document).ready(function () {
   // Enquiry Form
   $(document).ready(function () {
     $(".enquire-now-btn , .close , .overlay").click(function () {
-      $('.contact-form-box , .overlay').toggleClass("active");
+      $('.pop-up-1 , .overlay').toggleClass("active");
     });
   });
+
+    // Pop-Up Form
+    $(document).ready(function () {
+      $(".popUp-link , .close-popup , .overlay-2").click(function () {
+        $('.pop-up , .overlay-2').toggleClass("active");
+      });
+    });
 
   // Hamburger Menu
   var headerH = $(".header").outerHeight()
