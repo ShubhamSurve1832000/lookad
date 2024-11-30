@@ -61,7 +61,7 @@ html {font-size: 62.5%;
 .navbar-links li.active {color: #E50019;}
 
 /* Enquire Now Sticky */
-.enquire-whatsapp-container {position: fixed; top: 68%; right: -155px; z-index: 99;}
+.enquire-whatsapp-container {position: fixed; top: 68%; right: -175px; z-index: 99;}
 .enquire-whatsapp-container .enquire-now-btn {display: block; font-size: 3.5rem; color: #FFFFFF; background-color: rgb(229, 0, 25, 0.8); padding: 1.4rem 2.9rem; border-start-start-radius: 2rem; border-start-end-radius: 2rem; transform-origin: 2rem 1.5rem; transform: rotate(-90deg); margin-bottom: -1.6rem; margin-left: -7px;}
 .enquire-whatsapp-container .whatsapp-icon {display: block; width: 7rem;}
 
@@ -199,10 +199,13 @@ html {font-size: 62.5%;
 .digital-media-and-logos {background-image: url(../img/digital_media_bg.jpg); background-repeat: no-repeat; background-size: cover; padding-bottom: 1.5rem;}
 .digital-media-advertisement {display: grid; grid-template-columns: 65% 35%; column-gap: 4rem; padding: 6rem 8rem 2rem 8rem;}
 /* .digital-advertisement-slider {grid-area: 1;} */
-.digital-advertisement .arrow-and-slider {grid-area: 1;}
+.digital-media-advertisement .arrow-and-slider {grid-area: 1;}
 .digital-advertisement-slider img {padding-inline: 1rem;}
 /* .advertisements-section .digital-media-advertisement .slick-arrow.slick-prev {bottom: 1rem; left: 43%; transform: rotate(-135deg);}
 .advertisements-section .digital-media-advertisement .slick-arrow.slick-next {bottom: 1rem; right: 43%; transform: rotate(45deg);} */
+
+.television-advertisement-slider.slick-slider .slick-slide {padding-inline: 2rem;}
+
 .digital-media-logos {display: flex; align-items: center; justify-content: center; gap: 5rem; background-color: #FFFFFF; width: 99.5%; margin: 0 auto; padding-block: 3rem;}
 .digital-media-logo-box {width: 5rem; height: 5rem; padding-inline: 4rem;}
 .digital-media-logo-box img {width: 100%; height: 100%; object-fit: contain;}
@@ -282,16 +285,16 @@ html {font-size: 62.5%;
 
 /* Reviews Section */
 .reviews-section {padding-top: 9.4rem; padding-bottom: 10.5rem;}
-/* .reviews-section .heading-05 {margin-left: 3.5rem;} */
+.reviews-section .heading-05 {margin-left: 4rem;}
 .reviews-content-slider {display: grid; grid-template-columns: repeat(3, 1fr); gap: 3.1rem; margin-top: 2rem;}
 .reviews-content-slider.slick-slider .slick-track, .reviews-content-slider.slick-slider .slick-list {display: flex; gap: 3.1rem; padding: 1rem 0;}
 .reviews-section .slick-arrow {font-size: 0; position: absolute;}
 .reviews-section .slick-arrow.slick-prev {background-image: url(../img/reviews_slider_prev_arrow.png); background-repeat: no-repeat; background-color: transparent; width: 5%; padding-bottom: 7%; top: -90px; right: 60px;}
 .reviews-section .slick-arrow.slick-next {background-image: url(../img/reviews_slider_next_arrow.png); background-repeat: no-repeat; background-color: transparent; width: 5%; padding-bottom: 7%; top: -90px; right: 0;}
 .reviews-section .slick-arrow.slick-disabled {opacity: 0.5;}
-.review-box {display: grid !important; grid-template-rows: 60% 20% 20%; justify-items: center; padding: 10.4rem 5.5rem 4.5rem 5.5rem; box-shadow: 0px 0px 20px 0px #707070; border-radius: 3.3rem; border: 1px solid #707070; border: none;}
+.review-box {display: grid !important; grid-template-rows: 60% 20% 20%; justify-items: center; padding: 10.4rem 5.5rem 4.5rem 5.5rem; box-shadow: 0px 0px 15px 0px #707070; border-radius: 3.3rem; border: 1px solid #707070; border: none; margin-inline: 1rem;}
 .review-text {text-align: center;}
-.review-text:before {content: ""; background-image: url(../img/about_us_review_design_icon.png); background-repeat: no-repeat; display: block; width: 3%; padding-bottom: 4%; position: absolute; top: 65px;}
+.review-text:before {content: ""; background-image: url(../img/about_us_review_design_icon.png); background-repeat: no-repeat; display: block; width: 5%; padding-bottom: 4%; position: absolute; top: 65px;}
 .reviewer-name {font-size: 2.3rem; margin-top: 2.8rem; margin-bottom: 1rem; align-self: flex-end;}
 .review-logo-img {align-self: center;}
 .review-logo-img img {object-fit: contain;}

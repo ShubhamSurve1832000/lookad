@@ -131,6 +131,7 @@
     .banner-content::before{top:50%;left: 50%; transform: translate(-50%, -50%);width:40rem; height: 40rem;}
     .decades-brands-section .lg-container{width: 100%;}
     .decades-brands-section .brands-circle p{line-height: 1.2;}
+    .contact-form-box.pop-up.active {width: 60%;}
 }
 
 @media screen and (max-width: 767px){
@@ -151,7 +152,7 @@
     .decades-brands-section .circle , .decades-brands-section .brands-circle:nth-child(3) .circle{padding: 2rem;}
     .decades-brands-section .brands-circle p{font-size: 1.5rem;}
     .decades-brands-section .brands-circle{    width: 29%;height: 54%;}
-    
+    .contact-form-box.pop-up.active {width: 90%;}
 
 }
 

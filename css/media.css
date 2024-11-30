@@ -1,6 +1,7 @@
 @media screen and (max-width: 1700px){
     html {font-size: 55%;}
 
+    .enquire-whatsapp-container {right: -155px;}
     .enquire-whatsapp-container .whatsapp-icon {width: 6.5rem;}
 
     /* Index Page */
@@ -72,6 +73,7 @@
     .step-box-shadow-design:after {top: -45rem; background-size: 270%; background-position: -30rem -6rem;}
     .media-step-num-box .step-num:first-child {font-size: 6rem;}
     .media-step-num-box .step-num {font-size: 3.5rem;}
+    .we-provide-content.sm-container {width: 70%;}
 
     /* About Us Page */
     .about-us-banner-content .heading-03 {-webkit-text-stroke: 2px;}
@@ -86,8 +88,8 @@
     .our-team-content {justify-items: center;}
     .reviews-section .slick-arrow.slick-prev {width: 6%; padding-bottom: 13%;}
     .reviews-section .slick-arrow.slick-next {width: 6%; padding-bottom: 13%;}
-    .review-text:before {top: 30px; padding-bottom: 6%;}
-    .review-box {box-shadow: 0px 0px 10px 0px #707070;}
+    .review-text:before {top: 20px; padding-bottom: 6%;}
+    .review-box {box-shadow: 0px 0px 10px 0px #707070; padding: 7rem 5.5rem 4.5rem 5.5rem;}
 }
 
 @media screen and (max-width: 1300px){
@@ -150,6 +152,8 @@
     .reviews-section .sm-container {width: 80%;}
     .reviews-section .slick-arrow.slick-prev {right: 55px; top: -70px;}
     .reviews-section .slick-arrow.slick-next {top: -70px;}
+    .reviews-content-slider.slick-slider .slick-track, .reviews-content-slider.slick-slider .slick-list {padding: 3rem 0;}
+    .review-text:before {background-size: 60%; top: 30px;}
 }
 
 @media screen and (max-width: 1023px){
@@ -247,6 +251,7 @@
     .our-team-section .sm-container{width: 90%;}
     .team-bg {height: 610px; object-fit: cover; object-position: 57%; border-radius: 50px;}
     .our-team-content{right: 5%;}
+    .review-text:before {background-size: 45%;}
 
     /* Thank You Page */
     .thank-you-section .lg-container {width: 90%;}
@@ -334,7 +339,7 @@
     .our-services-banner-content .heading-03 {font-size: 7rem;}
     .our-services-banner-content .heading-01 {font-size: 13rem;}
     .we-provide-section {padding: 5rem 0;}
-    .we-provide-content.sm-container {width: 90%;}
+    .we-provide-content.sm-container {width: 95%;}
     .we-provide-content .heading-04 {font-size: 6rem;}
     .we-provide-content .heading-02 {font-size: 12rem;}
     .newspaper-advertisement, .television-advertisement, .outdoor-advertisement, .digital-media-advertisement {display: block; background-size: cover; padding: 6rem 3rem;}
@@ -377,8 +382,8 @@
     .mission-vision-tab-title .heading-06.active:after {left: 11rem;}
     .reviews-section {padding-top: 5rem; padding-bottom: 5rem;}
     .reviews-section .sm-container {width: 90%;}
-    .reviews-section .slick-arrow.slick-prev {top: -55px; right: 40px; width: 6%; padding-bottom: 12%;}
-    .reviews-section .slick-arrow.slick-next {top: -55px; width: 6%; padding-bottom: 12%;}
+    .reviews-section .slick-arrow.slick-prev {top: -55px; right: 40px; width: 6%; padding-bottom: 20%;}
+    .reviews-section .slick-arrow.slick-next {top: -55px; width: 6%; padding-bottom: 20%;}
 
     /* Thank You Page */
     .thank-you-section {padding: 10rem 0;}
@@ -417,7 +422,7 @@
 
     /* About Us Page */
     .client-logo-box img {width: 100%;}
-    .reviews-section .slick-arrow.slick-prev {right: 30px;}
+    .reviews-section .slick-arrow.slick-prev {right: 35px;}
 }
 
 @media screen and (max-width: 400px){
@@ -429,7 +434,7 @@
 
     /* About Us Page */
     .mission-vision-img-circle {width: 20rem; height: 20rem; bottom: -6rem;}
-    .reviews-section .heading-05 {margin-left: 3rem;}
-    .reviews-section .slick-arrow.slick-prev {width: 8%;}
-    .reviews-section .slick-arrow.slick-next {width: 8%;}
+    .reviews-section .heading-05 {margin-left: 3rem; width: 80%;}
+    .reviews-section .slick-arrow.slick-prev {width: 9%;}
+    .reviews-section .slick-arrow.slick-next {width: 9%;}
 }

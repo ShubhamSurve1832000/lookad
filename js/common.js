@@ -82,11 +82,32 @@ $(document).ready(function () {
     ]
   });
 
-  $(".prev-btn").click(function(){
-    $(".newspaper-advertisement-slider .slick-prev, .television-advertisement-slider .slick-prev, .outdoor-advertisement-slider .slick-prev, .digital-advertisement-slider .slick-prev").trigger("click")
+  $(".news-prev-btn").click(function(){
+    $(".newspaper-advertisement-slider .slick-prev").trigger("click")
   })
-  $(".next-btn").click(function(){
-    $(".newspaper-advertisement-slider .slick-next, .television-advertisement-slider .slick-next, .outdoor-advertisement-slider .slick-next, .digital-advertisement-slider .slick-next").trigger("click")
+  $(".news-next-btn").click(function(){
+    $(".newspaper-advertisement-slider .slick-next").trigger("click")
+  })
+
+  $(".tv-prev-btn").click(function(){
+    $(".television-advertisement-slider .slick-prev").trigger("click")
+  })
+  $(".tv-next-btn").click(function(){
+    $(".television-advertisement-slider .slick-next").trigger("click")
+  })
+
+  $(".out-prev-btn").click(function(){
+    $(".outdoor-advertisement-slider .slick-prev").trigger("click")
+  })
+  $(".out-next-btn").click(function(){
+    $(".outdoor-advertisement-slider .slick-next").trigger("click")
+  })
+
+  $(".digital-prev-btn").click(function(){
+    $(".digital-advertisement-slider .slick-prev").trigger("click")
+  })
+  $(".digital-next-btn").click(function(){
+    $(".digital-advertisement-slider .slick-next").trigger("click")
   })
 
   // Television Advertisement Slider
