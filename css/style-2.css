@@ -75,11 +75,14 @@
 
 .footer-banner-section{position: relative;}
 .footer-banner-section .banner-content{max-width: 120.3rem; width: 90%;position: absolute; top: 50%; left:0; right: 0; margin: 0 auto;     transform: translateY(-50%);}
+.footer-banner-section .banner-content .heading-01 , .footer-banner-section .banner-content .heading-03 {line-height: 0.9;}
 .banner-content .heading-03{display: inline-block;vertical-align: top;font-size: 9.8rem;}
 .banner-content .heading-01{display: inline-block;font-size: 17.5rem;}
 .banner-content .heading-05{color: #fff;font-size: 5.3rem;}
+.banner-content .heading-06{color: #fff;text-align: end; margin-top: 3rem;}
 .banner-content{position: relative;}
-.banner-content::before{content: ''; position: absolute; width: 49.3rem; height: 49.4rem; border-radius: 100%;left: 8%; bottom: -50%;background-color: #E50019;z-index: -1;}
+.banner-content::before{content: ''; position: absolute; width: 49.3rem; height: 49.4rem; border-radius: 100%;left: 8%; top: 50%;background-color: #E50019;z-index: -1; transform: translateY(-50%);}
+.footer-banner-section .banner-content .read-more-btn{float: right;clear: both;margin-right: 2rem;color: #fff;}
 
 .decades-brands-section .brands-circle{position: absolute; width: 28%; height: 53%; border-radius: 100%;}
 .decades-brands-section .circle{position: absolute; right: 1.7rem; left: 1.7rem; top: 1.7rem; bottom: 1.7rem;border-radius: 100%;display: flex; align-items: center; justify-content: center; flex-direction: column;background-color: #2E3037;text-align: center; padding: 6rem;}
@@ -108,17 +111,18 @@
 }
 
 @media screen and (max-width: 1279px){
-    .contact-banner .heading-03{-webkit-text-stroke:2px;}
+    .contact-banner .heading-03{-webkit-text-stroke:2px; font-size: 7.7rem;}
+    .home-banner-content.contact-banner{width: 55%; top: 55%;}
 }
 
 @media screen and (max-width: 1023px){
-    .contact-banner .heading-01::before{left: 70%;}
+    .contact-banner .heading-01::before{left: 70%;bottom: -31%;}
     .contact-banner{width: 55%;}
     .md-container{width: 90%;}
     .sm-container{width: 90%;}
-    
+    .home-banner-content.contact-banner { width: 70%;}
     .banner-content .heading-01{font-size: 15rem;}
-    .banner-content .heading-03{font-size: 8.8rem;}
+    .banner-content .heading-03{font-size: 7.7rem;}
     .banner-content::before{top:50%;left: 50%; transform: translate(-50%, -50%);width:40rem; height: 40rem;}
     .decades-brands-section .lg-container{width: 100%;}
     .decades-brands-section .brands-circle p{line-height: 1.2;}
@@ -126,15 +130,15 @@
 
 @media screen and (max-width: 767px){
     .contact-banner-section {position: relative;}
-    .home-banner-content.contact-banner .heading-01{font-size: 14rem;}
     .map-box .md-container{width: 90%;}
     .md-container{width: 90%;}
     .contact-banner .heading-01::before{width: 28rem;height: 28rem; left: 45%;}
-    .home-banner-content.contact-banner{width: 90%;top: 50% !important; transform: translateY(-50%);}
+    .home-banner-content.contact-banner{width: 65%;top: 50% !important; transform: translateY(-50%);}
     .contact-form-container{width: 90%;}
     .decades-brands-section .brands-flex{flex-direction: column; align-items: center;margin-top: 2rem;}
     .our-superpowers-section .sm-container .grid-container{grid-template-columns: 1fr;}
-    .banner-content .heading-01{font-size: 10rem;}
+    .contact-banner .heading-01{font-size: 13rem;}
+    .contact-banner .heading-03{font-size: 8rem;}
     .banner-content .heading-03{font-size: 6.8rem;}
     .banner-content .heading-05{font-size: 4.3rem;}
     .footer-banner-section img{height: 50vh;object-fit: cover;}
@@ -147,7 +151,7 @@
 }
 
 @media screen and (max-width: 500px){
-    .home-banner-content.contact-banner .heading-01{font-size: 8rem;}
+    .home-banner-content.contact-banner .heading-01{font-size: 11rem;}
     .home-banner-content.contact-banner{ width: 100%; text-align: center;}
     .contact-banner .heading-03:last-child{text-align: center;}
     .contact-banner .heading-01::before {left: 70%;}
@@ -163,7 +167,7 @@
     .our-superpowers-section .grid-cloumn:last-child{flex-direction:column-reverse}
     .our-superpowers-section .grid-container .box .text{font-size: 2rem;}
     .our-superpowers-section .grid-container .img-box .box-header .heading-05{font-size: 5rem;}
-
+    .contact-form-container .contact-form-box {padding-inline: 5rem;}
 
     .why-us-section .contact-banner .heading-01::before{left: 75%; top: auto;}
     .why-us-section .contact-banner .heading-01::after{top: 100%;left: -10%;}
@@ -182,8 +186,9 @@
     .decades-brands-section .brands-circle p {font-size: 2.5rem;}
     .decades-brands-section::after{width: 100%; background-size: 65%; height:15%}
     .decades-brands-section::before{width: 70%; background-size: 100%; height:100%}
-
+    .footer-banner-section .banner-content .heading-01, .footer-banner-section .banner-content .heading-03 { line-height: 1;}
     .footer-banner-section .banner-content{text-align: center;}
+    .banner-content .heading-06{margin-top: 1rem; text-align: center;}
 
     
 }
