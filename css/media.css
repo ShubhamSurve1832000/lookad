@@ -92,7 +92,7 @@
     html {font-size: 43%;}
 
     /* Enquire Now Sticky */
-    .enquire-whatsapp-container {right: -103px;}
+    
 
     /* Index Page */
     .clients-logo-slider-box {column-gap: 5rem;}
@@ -119,7 +119,7 @@
 
     /* Enquire Now Sticky */
     /* .enquire-whatsapp-container {right: -10%;} */
-
+    .enquire-whatsapp-container {right: -110px;}
     /* Index Page */
     .tv-monitoring-content-01 .heading-04 {width: 100%;}
 
@@ -159,6 +159,7 @@
 
     /* Header */
     .header .lg-container {width: 85%;}
+    .enquire-whatsapp-container {right: -103px;}
     .enquire-whatsapp-container .heading-06 {font-size: 3.2rem; padding: 1rem 2.5rem;}
     .enquire-whatsapp-container .whatsapp-icon {width: 6rem;}
     
@@ -254,8 +255,9 @@
 
 @media screen and (max-width: 767px){
     /* Headings and Texts */
-    .heading-01 {font-size: 8rem;}
-    .heading-02 {font-size: 6rem;}
+    .heading-01 {font-size: 11rem;}
+    .heading-02 {font-size: 7rem;}
+    .heading-03 {font-size: 7rem;}
     .heading-04 {font-size: 5.5rem;}
 
     /* Header */
@@ -327,8 +329,8 @@
     .banner-sm-circle {width: 10rem; height: 10rem; top: 35%; left: 18%;}
     .banner-lg-circle {width: 16rem; height: 16rem; top: 5%; left: 60%;}
     .our-services-banner-content {top: 50%;}
-    .our-services-banner-content .heading-03 {font-size: 4.5rem;}
-    .our-services-banner-content .heading-01 {font-size: 9rem;}
+    .our-services-banner-content .heading-03 {font-size: 7rem;}
+    .our-services-banner-content .heading-01 {font-size: 13rem;}
     .we-provide-section {padding: 5rem 0;}
     .we-provide-content.sm-container {width: 90%;}
     .we-provide-content .heading-04 {font-size: 6rem;}
@@ -401,7 +403,7 @@
 }
 
 @media screen and (max-width: 500px){
-    .page-banner {height: 250px;}
+    .page-banner {height: 250px; object-fit: cover;}
 
     /* Index Page */
     .about-decades-section .sm-container {width: 80%;}
