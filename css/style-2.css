@@ -185,7 +185,7 @@
     .decades-brands-section .lg-container{align-items: center;display: flex;flex-direction: column;position: static;gap: 3rem;}
     .decades-brands-section .lg-container > img{display: none;}
     .decades-brands-section .brands-circle{position: static;}
-    .enquire-whatsapp-container .contact-form-box{width: 100%;}
+    .enquire-whatsapp-container .contact-form-box{width: 100%;top: 15%;}
     .decades-brands-section .brands-circle {width: 75%;height: 80%;}
     .decades-brands-section .circle {position: static;height: 40rem;width: 40rem;padding: 3rem;margin: 0 auto;}
     .decades-brands-section .brands-circle:nth-child(3){transform: translate(0);}
