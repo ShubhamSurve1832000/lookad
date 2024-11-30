@@ -83,10 +83,10 @@ $(document).ready(function () {
   });
 
   $(".prev-btn").click(function(){
-    $(".newspaper-advertisement-slider .slick-prev").trigger("click")
+    $(".newspaper-advertisement-slider .slick-prev, .television-advertisement-slider .slick-prev, .outdoor-advertisement-slider .slick-prev, .digital-advertisement-slider .slick-prev").trigger("click")
   })
   $(".next-btn").click(function(){
-    $(".newspaper-advertisement-slider .slick-next").trigger("click")
+    $(".newspaper-advertisement-slider .slick-next, .television-advertisement-slider .slick-next, .outdoor-advertisement-slider .slick-next, .digital-advertisement-slider .slick-next").trigger("click")
   })
 
   // Television Advertisement Slider
@@ -189,6 +189,47 @@ $(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 0,
     speed: 5000,
+    responsive: [
+      {
+        breakpoint: 1023,
+        settings: {
+          dots: false,
+          arrows: false,
+          infinite: true,
+          slidesToShow: 6,
+          cssEase: 'linear',
+          autoplay: true,
+          autoplaySpeed: 0,
+          speed: 5000,
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          dots: false,
+          arrows: false,
+          infinite: true,
+          slidesToShow: 3,
+          cssEase: 'linear',
+          autoplay: true,
+          autoplaySpeed: 0,
+          speed: 5000,
+        }
+      },
+    ]
+  });
+
+  // Digital Media Logos Slider (Our Services Page)
+  $('.digital-media-logos').slick({
+    dots: false,
+    arrows: false,
+    infinite: true,
+    slidesToShow: 5,
+    cssEase: 'linear',
+    autoplay: true,
+    autoplaySpeed: 0,
+    speed: 5000,
+    variableWidth: true,
     responsive: [
       {
         breakpoint: 1023,

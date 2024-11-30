@@ -16,6 +16,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-2.css">
     <link rel="stylesheet" href="css/media.css">
@@ -38,8 +39,8 @@
             </div>
         </header>
         <div class="enquire-whatsapp-container">
-            <button class="enquire-now-btn heading-06">Enquire Now</button>
-            <a class="whatsapp-icon" href="javascript:;"><img src="img/enquire_whatsapp_icon.png" alt=""></a>
+            <a href="javascript:;"><button class="enquire-now-btn heading-06">Enquire Now</button></a>
+            <a class="whatsapp-icon" href="https://api.whatsapp.com/send?phone=9830030877" target="_blank"><img src="img/enquire_whatsapp_icon.png" alt=""></a>
             <div class="overlay"></div>
             <div class="contact-form-box pop-up-1">
                 <span class="close"></span>
@@ -122,21 +123,21 @@
                 <span class="banner-sm-circle"></span>
                 <span class="banner-lg-circle"></span>
                 <div class="our-services-banner-content">
-                    <h3 class="heading-03">Get Your</h3>
-                    <h1 class="heading-01">Brand</h1>
-                    <h3 class="heading-03"> On The Front Page</h3>
+                    <h3 class="heading-03" data-aos="fade-right">Get Your</h3>
+                    <h1 class="heading-01" data-aos="fade-left">Brand</h1>
+                    <h3 class="heading-03" data-aos="fade-right"> On The Front Page</h3>
                 </div>
             </section>
             <section class="we-provide-section">
                 <div class="we-provide-content sm-container">
-                    <h4 class="heading-04">Your Voice,</h4>
-                    <h2 class="heading-02">Your Choice</h2>
-                    <h4 class="heading-04">We Stage, </h4>
-                    <h2 class="heading-02"> We Provide!</h2>
+                    <h4 class="heading-04" data-aos="fade-down">Your Voice,</h4>
+                    <h2 class="heading-02" data-aos="fade-left">Your Choice</h2>
+                    <h4 class="heading-04" data-aos="fade-down">We Stage, </h4>
+                    <h2 class="heading-02" data-aos="fade-left"> We Provide!</h2>
                 </div>
             </section>
             <section class="advertisements-section lg-container">
-                <div class="newspaper-advertisement">
+                <div class="newspaper-advertisement" data-aos="fade-right">
                     <div class="advertisement-content">
                         <h5 class="heading-05">Newspaper <span class="heading-05">Advertisements</span></h5>
                         <p class="text"><a class="popUp-link" id="book-display" href="javascript:;">Book Display Ads
@@ -159,16 +160,22 @@
                             display ads, front-page placements, custom ads, obituaries and public notices, we are about
                             catching the attention of our readers to drive consistent impact.</p>
                     </div>
-                    <div class="newspaper-advertisement-slider">
-                        <img src="img/newspaper_ad_img_01.png" alt="">
-                        <img src="img/newspaper_ad_img_02.png" alt="">
-                        <img src="img/newspaper_ad_img_03.png" alt="">
-                        <img src="img/newspaper_ad_img_01.png" alt="">
-                        <img src="img/newspaper_ad_img_02.png" alt="">
-                        <img src="img/newspaper_ad_img_03.png" alt="">
+                    <div class="arrow-and-slider">
+                        <div class="newspaper-advertisement-slider">
+                            <img src="img/newspaper_ad_img_01.png" alt="">
+                            <img src="img/newspaper_ad_img_02.png" alt="">
+                            <img src="img/newspaper_ad_img_03.png" alt="">
+                            <img src="img/newspaper_ad_img_01.png" alt="">
+                            <img src="img/newspaper_ad_img_02.png" alt="">
+                            <img src="img/newspaper_ad_img_03.png" alt="">
+                        </div>
+                        <div class="arrow-box">
+                            <button class="arrow-btn news-prev-btn">Prev</button>
+                            <button class="arrow-btn news-next-btn">Next</button>
+                        </div>
                     </div>
                 </div>
-                <div class="television-advertisement">
+                <div class="television-advertisement" data-aos="fade-left">
                     <div class="advertisement-content">
                         <h5 class="heading-05">Television/Radio<span class="heading-05">Advertisements</span></h5>
                         <p class="text"> <a class="popUp-link" id="book-commercial-spots" href="javascript:;">Book Commercial Spots
@@ -183,14 +190,25 @@
                             catchy commercial spots to memorable jingles, product placements, and sponsorships that
                             deliver content that becomes the talk of the town.</p>
                     </div>
-                    <div class="television-advertisement-slider">
-                        <img src="img/television_ad_img_01.png" alt="">
-                        <img src="img/television_ad_img_02.png" alt="">
-                        <img src="img/television_ad_img_01.png" alt="">
-                        <img src="img/television_ad_img_02.png" alt="">
+                    <div class="arrow-and-slider">
+                        <div class="television-advertisement-slider">
+                            <div class="tv-slider-yt-videos">
+                                <iframe width="560" height="250" src="https://www.youtube.com/embed/WoEeA4TfjJY?si=Ixj-Gfitkn0MzsPd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <div class="tv-slider-yt-videos">
+                                <iframe width="560" height="250" src="https://www.youtube.com/embed/GncCNM_K_kU?si=MrfjMqjpj1Wy2wUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <div class="tv-slider-yt-videos">
+                                <iframe width="560" height="250" src="https://www.youtube.com/embed/TUG4f_WSGwY?si=3i16tlUxU0awkXvK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="arrow-box">
+                            <button class="arrow-btn tv-prev-btn">Prev</button>
+                            <button class="arrow-btn tv-next-btn">Next</button>
+                        </div>
                     </div>
                 </div>
-                <div class="outdoor-advertisement">
+                <div class="outdoor-advertisement" data-aos="fade-right">
                     <div class="advertisement-content">
                         <h5 class="heading-05">Outdoor<span class="heading-05">Advertisements</span></h5>
                         <p class="text"> <a class="popUp-link" id="book-billbords"  href="javascript:;"> Book Billboards </a> | <a class="popUp-link" id="posters"  href="javascript:;"> Posters </a> | <a class="popUp-link" id="flyers-leaflets"  href="javascript:;"> Flyers and Leaflets </a> | <a class="popUp-link" id="guerrilla-ads"  href="javascript:;"> Guerrilla Advertising </a> |
@@ -201,17 +219,23 @@
                             eye-catching flyers, leaflets, and point-of-sale displays, ensure your brand stands out and
                             achieves greater visibility.</p>
                     </div>
-                    <div class="outdoor-advertisement-slider">
-                        <img src="img/outdoor_ad_img_01.png" alt="">
-                        <img src="img/outdoor_ad_img_02.png" alt="">
-                        <img src="img/outdoor_ad_img_03.png" alt="">
-                        <img src="img/outdoor_ad_img_04.png" alt="">
-                        <img src="img/outdoor_ad_img_05.png" alt="">
-                        <img src="img/outdoor_ad_img_06.png" alt="">
-                        <img src="img/outdoor_ad_img_07.png" alt="">
+                    <div class="arrow-and-slider">
+                        <div class="outdoor-advertisement-slider">
+                            <img src="img/outdoor_ad_img_01.png" alt="">
+                            <img src="img/outdoor_ad_img_02.png" alt="">
+                            <img src="img/outdoor_ad_img_03.png" alt="">
+                            <img src="img/outdoor_ad_img_04.png" alt="">
+                            <img src="img/outdoor_ad_img_05.png" alt="">
+                            <img src="img/outdoor_ad_img_06.png" alt="">
+                            <img src="img/outdoor_ad_img_07.png" alt="">
+                        </div>
+                        <div class="arrow-box">
+                            <button class="arrow-btn out-prev-btn">Prev</button>
+                            <button class="arrow-btn out-next-btn">Next</button>
+                        </div>
                     </div>
                 </div>
-                <div class="digital-media-and-logos">
+                <div class="digital-media-and-logos" data-aos="fade-left">
                     <div class="digital-media-advertisement">
                         <div class="advertisement-content">
                             <h5 class="heading-05">Digital<span class="heading-05">Media</span></h5>
@@ -224,29 +248,49 @@
                                 ad is seamlessly crafted to maximize your brand's reach and impact across the digital
                                 landscape.</p>
                         </div>
-                        <div class="digital-advertisement-slider">
-                            <img src="img/digital_media_img_01.png" alt="">
-                            <img src="img/digital_media_img_02.png" alt="">
-                            <img src="img/digital_media_img_03.png" alt="">
-                            <img src="img/digital_media_img_04.png" alt="">
-                            <img src="img/digital_media_img_05.png" alt="">
+                        <div class="arrow-and-slider">
+                            <div class="digital-advertisement-slider">
+                                <img src="img/digital_media_img_01.png" alt="">
+                                <img src="img/digital_media_img_02.png" alt="">
+                                <img src="img/digital_media_img_03.png" alt="">
+                                <img src="img/digital_media_img_04.png" alt="">
+                                <img src="img/digital_media_img_05.png" alt="">
+                            </div>
+                            <div class="arrow-box">
+                                <button class="arrow-btn digital-prev-btn">Prev</button>
+                                <button class="arrow-btn digital-next-btn">Next</button>
+                            </div>
                         </div>
                     </div>
                     <div class="digital-media-logos">
-                        <img src="img/digital_media_toi_logo.png" alt="">
-                        <img src="img/digital_media_inshorts_logo.png" alt="">
-                        <img src="img/digital_media_aajtak_logo.png" alt="">
-                        <img src="img/digital_media_disneyhotstar_logo.png" alt="">
-                        <img src="img/digital_media_jiocinema_logo.png" alt="">
-                        <img src="img/digital_media_sonyliv_logo.png" alt="">
-                        <img src="img/digital_media_moneycontrol_logo.png" alt="">
+                        <div class="digital-media-logo-box">
+                            <img src="img/digital_media_toi_logo.png" alt="">
+                        </div>
+                        <div class="digital-media-logo-box">
+                            <img src="img/digital_media_inshorts_logo.png" alt="">
+                        </div>
+                        <div class="digital-media-logo-box">
+                            <img src="img/digital_media_aajtak_logo.png" alt="">
+                        </div>
+                        <div class="digital-media-logo-box">
+                            <img src="img/digital_media_disneyhotstar_logo.png" alt="">
+                        </div>
+                        <div class="digital-media-logo-box">
+                            <img src="img/digital_media_jiocinema_logo.png" alt="">
+                        </div>
+                        <div class="digital-media-logo-box">
+                            <img src="img/digital_media_sonyliv_logo.png" alt="">
+                        </div>
+                        <div class="digital-media-logo-box">
+                            <img src="img/digital_media_moneycontrol_logo.png" alt="">
+                        </div>
                     </div>
                 </div>
             </section>
             <section class="brands-needs-section">
                 <div class="lg-container">
-                    <h4 class="heading-04">The Way to Meet Your</h4>
-                    <h4 class="heading-04">Brand’s Needs</h4>
+                    <h4 class="heading-04" data-aos="fade-right">The Way to Meet Your</h4>
+                    <h4 class="heading-04" data-aos="fade-right">Brand’s Needs</h4>
                     <div class="media-steps-container">
                         <div class="media-procedure">
                             <div class="step-box-shadow-design">
@@ -256,9 +300,9 @@
                                 </div>
                             </div>
                             <div class="media-step-content">
-                                <h5 class="media-step-content-title heading-05">Media <span
+                                <h5 class="media-step-content-title heading-05" data-aos="fade-down">Media <span
                                         class="heading-05">Planning</span></h5>
-                                <p class="text">At Lookad, our approach to media planning begins with a deep
+                                <p class="text" data-aos="flip-right">At Lookad, our approach to media planning begins with a deep
                                     understanding of your brand's goals. Following research, we strategise to eventually
                                     craft a comprehensive roadmap to identify the most effective channels for reaching
                                     your target audience. Our focus is to ensure that your message numt only resonates
@@ -273,9 +317,9 @@
                                 </div>
                             </div>
                             <div class="media-step-content">
-                                <h5 class="media-step-content-title heading-05">Media <span
+                                <h5 class="media-step-content-title heading-05" data-aos="fade-down">Media <span
                                         class="heading-05">Buying</span></h5>
-                                <p class="text">As a media buying agency, Lookad secures optimal ad placements through
+                                <p class="text" data-aos="flip-right">As a media buying agency, Lookad secures optimal ad placements through
                                     expert negotiation and buying strategies. Leveraging our strong network across media
                                     platforms, we guarantee maximum exposure within your budget. Our transparent
                                     approach means that any savings from the process are returned to you, ensuring cost
@@ -290,9 +334,9 @@
                                 </div>
                             </div>
                             <div class="media-step-content">
-                                <h5 class="media-step-content-title heading-05">Media <span
+                                <h5 class="media-step-content-title heading-05" data-aos="fade-down">Media <span
                                         class="heading-05">Releasing</span></h5>
-                                <p class="text">Once your campaign is ready, our team seamlessly handles its execution.
+                                <p class="text" data-aos="flip-right">Once your campaign is ready, our team seamlessly handles its execution.
                                     From crafting compelling content to precise launches and continuous oversight, we
                                     ensure everything runs smoothly. As a marketing strategy agency, our TV Ad
                                     Monitoring team ensures your message reaches the right audience at the right time,
@@ -349,7 +393,15 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/common.js"></script>
+    <script>
+        $(document).ready(function () {
+            AOS.init({
+                duration: 1000,
+            });
+        });
+    </script>
 </body>
 
 </html>

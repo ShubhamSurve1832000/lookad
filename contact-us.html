@@ -16,6 +16,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-2.css">
     <link rel="stylesheet" href="css/media.css">
@@ -37,8 +38,8 @@
             </div>
         </header>
         <div class="enquire-whatsapp-container">
-            <button class="enquire-now-btn heading-06">Enquire Now</button>
-            <a class="whatsapp-icon" href="javascript:;"><img src="img/enquire_whatsapp_icon.png" alt=""></a>
+            <a href="javascript:;"><button class="enquire-now-btn heading-06">Enquire Now</button></a>
+            <a class="whatsapp-icon" href="https://api.whatsapp.com/send?phone=9830030877" target="_blank"><img src="img/enquire_whatsapp_icon.png" alt=""></a>
             <div class="overlay"></div>
             <div class="contact-form-box pop-up-1">
                 <span class="close"></span>
@@ -82,15 +83,15 @@
             <section class="contact-banner-section ">
                 <img class="page-banner" src="img/contact.png" alt="">
                 <div class="home-banner-content contact-banner">
-                    <h2 class="heading-03">Your Perfect</h2>
-                    <h1 class="heading-01"> Placement </h1>
-                    <h2 class="heading-03">Awaits!</h2>
+                    <h2 class="heading-03" data-aos="fade-right">Your Perfect</h2>
+                    <h1 class="heading-01" data-aos="fade-left"> Placement </h1>
+                    <h2 class="heading-03" data-aos="fade-right">Awaits!</h2>
                 </div>
             </section>
             <section class="contact-us-section">
                 <div class="md-container">
-                    <h3 class="heading-05">Make Your Move, Seal the Deal Today!</h3>
-                    <p class="text">At Lookad, we pride ourselves on delivering 100% transparency, swift turnaround
+                    <h3 class="heading-05" data-aos="fade-right">Make Your Move, Seal the Deal Today!</h3>
+                    <p class="text" data-aos="fade-down">At Lookad, we pride ourselves on delivering 100% transparency, swift turnaround
                         times,
                         and competitive ad rates. With over 37 years of industry expertise, our strong, long-standing
                         partnerships with leading media houses empower your brand to secure its rightful position in the
@@ -99,7 +100,7 @@
             </section>
             <section class="contact-form-section">
                 <div class="contact-form-container">
-                    <div class="contact-form-box ">
+                    <div class="contact-form-box" data-aos="zoom-in">
                         <h2 class="heading-05">Send Us A Message</h2>
                         <form class="contact-form" action="javascript:;">
                             <div class="input-box">
@@ -131,7 +132,7 @@
                             <a class="page-btn-link" href="javascript:;"><button class="read-more-btn"><span class="read-more-span"></span>Submit</button></a>
                         </form>
                     </div>
-                    <div class="address-box">
+                    <div class="address-box" data-aos="fade-left">
                         <div class="address-grid">
                             <div class="box">
                                 <p class="add-title">Registered Office:</p>
@@ -188,7 +189,7 @@
 
             <section class="map-box">
                 <div class="md-container">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.0465712914047!2d88.34619062529954!3d22.53992812951501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02773df8496e29%3A0x7f9b96fe1f5d5337!2sLookad%20India%20Private%20Limited!5e0!3m2!1sen!2sin!4v1732861760291!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.0465712914047!2d88.34619062529954!3d22.53992812951501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02773df8496e29%3A0x7f9b96fe1f5d5337!2sLookad%20India%20Private%20Limited!5e0!3m2!1sen!2sin!4v1732861760291!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-aos="zoom-in"></iframe>
                 </div>
             </section>
         </main>
@@ -235,7 +236,15 @@
         </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/common.js"></script>
+    <script>
+        $(document).ready(function () {
+            AOS.init({
+                duration: 1000,
+            });
+        });
+    </script>
 </body>
 
 </html>

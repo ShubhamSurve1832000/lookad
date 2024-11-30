@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-2.css">
     <link rel="stylesheet" href="css/media.css">
@@ -32,8 +33,8 @@
             </div>
         </header>
         <div class="enquire-whatsapp-container">
-            <button class="enquire-now-btn heading-06">Enquire Now</button>
-            <a class="whatsapp-icon" href="https://wa.me/198300 30877"><img src="img/enquire_whatsapp_icon.png" alt=""></a>
+            <a href="javascript:;"><button class="enquire-now-btn heading-06">Enquire Now</button></a>
+            <a class="whatsapp-icon" href="https://api.whatsapp.com/send?phone=9830030877" target="_blank"><img src="img/enquire_whatsapp_icon.png" alt=""></a>
             <div class="overlay"></div>
             <div class="contact-form-box pop-up-1">
                 <span class="close"></span>
@@ -78,14 +79,14 @@
                 <img class="page-banner" src="img/home_banner_img.jpg" alt="">
                 <span></span>
                 <div class="home-banner-content">
-                    <h2 class="heading-02">The Best has no</h2>
-                    <h1 class="heading-01">Alternative</h1>
+                    <h2 class="heading-02" data-aos="fade-right">The Best has no</h2>
+                    <h1 class="heading-01" data-aos="fade-left">Alternative</h1>
                 </div>
             </section>
             <section class="summary-section">
                 <div class="sm-container">
                     <div class="summary-content-01">
-                        <div class="summary-info-para">
+                        <div class="summary-info-para" data-aos="fade-right">
                             <h4 class="heading-05">The Look you can’t Overlook</h4>
                             <h5 class="heading-06">Change is the Only Constant 
                                 We Adapt to Every Brand</h5>
@@ -93,7 +94,7 @@
                                 For over 37+ years, Lookad has been the largest independent media agency in Eastern India, a fortress in media buying, planning, and releasing.</p>
                             <a class="page-btn-link" href="about-us.html"><button class="read-more-btn"><span class="read-more-span"></span>Read More</button></a>
                         </div>
-                        <div class="summary-info-design">
+                        <div class="summary-info-design" data-aos="fade-left">
                             <div class="sum-info-box">
                                 <p class="info-number">37+</p>
                                 <p class="text semibold">Productive <br>
@@ -141,8 +142,8 @@
                 <div class="sm-container">
                     <span class="lg-circle"></span>
                     <!-- <h1 class="heading-01">4</h1> -->
-                    <img class="about-decades-4-img" src="img/about_decades_4_img.png" alt="">
-                    <div class="about-decades-content">
+                    <img class="about-decades-4-img" src="img/about_decades_4_img.png" alt="" data-aos="zoom-in">
+                    <div class="about-decades-content" data-aos="fade-right">
                         <h2 class="heading-02">decades Wiser</h2>
                         <span class="sm-circle"></span>
                         <h6 class="heading-06">Above-the-line excellence, beyond-the-line relations</h6>
@@ -152,20 +153,20 @@
             </section>
             <section class="tv-monitoring-section">
                 <div class="sm-container">
-                    <div class="tv-monitoring-content-01">
+                    <div class="tv-monitoring-content-01" data-aos="fade-right">
                         <span class="sm-outline-circle"></span>
                         <h4 class="heading-04">We Monitor Every Second, So You Don’t waste a Single Rupee</h4>
                         <p class="text">In an era where digital platforms boast measurement and tracking capabilities, we’ve taken it a step further. We’ve pioneered comprehensive monitoring on television. With ad spends running into crores, the stakes are higher, and the need for precise insights is paramount.</p>
                         <a class="page-btn-link" href="our-services.html"><button class="read-more-btn"><span class="read-more-span"></span>Know More</button></a>
                     </div>
-                    <img src="img/tv_monitoring_img.png" alt="">
+                    <img src="img/tv_monitoring_img.png" alt="" data-aos="flip-right">
                 </div>
             </section>
             <div class="grey-strip"></div>
             <section class="clients-section">
                 <div class="md-container">
-                    <h4 class="heading-04">Clients Today, Partners for Decades</h4>
-                    <h6 class="heading-06">Trusted by the Best, for the Longest!</h6>
+                    <h4 class="heading-04" data-aos="fade-down">Clients Today, Partners for Decades</h4>
+                    <h6 class="heading-06" data-aos="fade-down">Trusted by the Best, for the Longest!</h6>
                     <div class="clients-logo-slider">
                         <div class="clients-logo-slider-box">
                             <img class="client-logo-img" src="img/clients_siddha_logo.png" alt="">
@@ -204,8 +205,8 @@
                 </div>
             </section>
             <section class="index-ending-line-section">
-                <h4 class="heading-04">Scrolling Ends Here,</h4>
-                <h4 class="heading-04">Let’s Secure Your Spot!</h4>
+                <h4 class="heading-04" data-aos="fade-right">Scrolling Ends Here,</h4>
+                <h4 class="heading-04" data-aos="fade-left">Let’s Secure Your Spot!</h4>
             </section>
         </main>
         <footer class="footer">
@@ -252,6 +253,14 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/common.js"></script>
+    <script>
+        $(document).ready(function () {
+            AOS.init({
+                duration: 1000,
+            });
+        });
+    </script>
 </body>
 </html>

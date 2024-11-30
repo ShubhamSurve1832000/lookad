@@ -8,14 +8,14 @@
     .summary-section .sm-container {width: 70%;}
 
     /* Our Services Page */
-    .advertisements-section .newspaper-advertisement .slick-arrow.slick-prev {bottom: 2.5rem;}
+    /* .advertisements-section .newspaper-advertisement .slick-arrow.slick-prev {bottom: 2.5rem;}
     .advertisements-section .newspaper-advertisement .slick-arrow.slick-next {bottom: 2.5rem;}
     .advertisements-section .television-advertisement .slick-arrow.slick-prev {bottom: 2rem;}
     .advertisements-section .television-advertisement .slick-arrow.slick-next {bottom: 2rem;}
     .advertisements-section .outdoor-advertisement .slick-arrow.slick-prev {bottom: 3rem;}
     .advertisements-section .outdoor-advertisement .slick-arrow.slick-next {bottom: 3rem;}
     .advertisements-section .digital-media-advertisement .slick-arrow.slick-prev {bottom: 4rem;}
-    .advertisements-section .digital-media-advertisement .slick-arrow.slick-next {bottom: 4rem;}
+    .advertisements-section .digital-media-advertisement .slick-arrow.slick-next {bottom: 4rem;} */
     .our-team-media-slider-section .slick-slider .slick-track, .our-team-media-slider-section .slick-list.draggable{height: 10rem;}
 
     /* About Us Page */
@@ -59,17 +59,19 @@
     /* Our Services Page */
     .our-services-banner-content .heading-03 {-webkit-text-stroke: 2px;}
     .advertisements-section .slick-arrow {border-width: 3px 3px 0 0;}
-    .advertisements-section .newspaper-advertisement .slick-arrow.slick-prev {bottom: 8rem;}
+    /* .advertisements-section .newspaper-advertisement .slick-arrow.slick-prev {bottom: 8rem;}
     .advertisements-section .newspaper-advertisement .slick-arrow.slick-next {bottom: 8rem;}
     .advertisements-section .television-advertisement .slick-arrow.slick-prev {bottom: 6rem;}
     .advertisements-section .television-advertisement .slick-arrow.slick-next {bottom: 6rem;}
     .advertisements-section .outdoor-advertisement .slick-arrow.slick-prev {bottom: 8rem;}
     .advertisements-section .outdoor-advertisement .slick-arrow.slick-next {bottom: 8rem;}
     .advertisements-section .digital-media-advertisement .slick-arrow.slick-prev {bottom: 8rem;}
-    .advertisements-section .digital-media-advertisement .slick-arrow.slick-next {bottom: 8rem;}
+    .advertisements-section .digital-media-advertisement .slick-arrow.slick-next {bottom: 8rem;} */
     .digital-media-logos {padding-top: 1rem; padding-bottom: 1rem;}
     .digital-media-logos img {width: 12rem;}
     .step-box-shadow-design:after {top: -45rem; background-size: 270%; background-position: -30rem -6rem;}
+    .media-step-num-box .step-num:first-child {font-size: 6rem;}
+    .media-step-num-box .step-num {font-size: 3.5rem;}
 
     /* About Us Page */
     .about-us-banner-content .heading-03 {-webkit-text-stroke: 2px;}
@@ -126,14 +128,14 @@
     /* Our Services Page */
     .our-services-banner-content .heading-03 {-webkit-text-stroke: 2px;}
     .we-provide-content.sm-container {width: 75%;}
-    .advertisements-section .newspaper-advertisement .slick-arrow.slick-prev {bottom: 2.5rem;}
+    /* .advertisements-section .newspaper-advertisement .slick-arrow.slick-prev {bottom: 2.5rem;}
     .advertisements-section .newspaper-advertisement .slick-arrow.slick-next {bottom: 2.5rem;}
     .advertisements-section .television-advertisement .slick-arrow.slick-prev {bottom: 1rem;}
     .advertisements-section .television-advertisement .slick-arrow.slick-next {bottom: 1rem;}
     .advertisements-section .outdoor-advertisement .slick-arrow.slick-prev {bottom: 4rem;}
     .advertisements-section .outdoor-advertisement .slick-arrow.slick-next {bottom: 4rem;}
     .advertisements-section .digital-media-advertisement .slick-arrow.slick-prev {bottom: 4rem;}
-    .advertisements-section .digital-media-advertisement .slick-arrow.slick-next {bottom: 4rem;}
+    .advertisements-section .digital-media-advertisement .slick-arrow.slick-next {bottom: 4rem;} */
     .television-advertisement-slider img {width: 75% !important;}
     .television-advertisement-slider .slick-slide div {display: flex; justify-content: center;}
     .advertisement-content .text:nth-child(2) {margin-top: 1rem; margin-bottom: 2rem;}
@@ -207,14 +209,14 @@
     .advertisements-section .slick-arrow {width: 1.5rem; height: 1.5rem; border-width: 2px 2px 0 0;}
     /* .advertisements-section .newspaper-advertisement .slick-arrow.slick-prev {bottom: 1.5rem;}
     .advertisements-section .newspaper-advertisement .slick-arrow.slick-next {bottom: 1.5rem;} */
-    .advertisements-section .newspaper-advertisement .slick-arrow.slick-prev {bottom: 9rem;}
+    /* .advertisements-section .newspaper-advertisement .slick-arrow.slick-prev {bottom: 9rem;}
     .advertisements-section .newspaper-advertisement .slick-arrow.slick-next {bottom: 9rem;}
     .advertisements-section .television-advertisement .slick-arrow.slick-prev {bottom: 7rem;}
     .advertisements-section .television-advertisement .slick-arrow.slick-next {bottom: 7rem;}
     .advertisements-section .outdoor-advertisement .slick-arrow.slick-prev {bottom: 9rem;}
     .advertisements-section .outdoor-advertisement .slick-arrow.slick-next {bottom: 9rem;}
     .advertisements-section .digital-media-advertisement .slick-arrow.slick-prev {bottom: 9rem;}
-    .advertisements-section .digital-media-advertisement .slick-arrow.slick-next {bottom: 9rem;}
+    .advertisements-section .digital-media-advertisement .slick-arrow.slick-next {bottom: 9rem;} */
     .television-advertisement-slider img {width: 100% !important;}
     .television-advertisement {grid-template-columns: 35% 65%;}
     .outdoor-advertisement {grid-template-columns: 65% 35%;}
@@ -337,15 +339,15 @@
     .we-provide-content .heading-02 {font-size: 12rem;}
     .newspaper-advertisement, .television-advertisement, .outdoor-advertisement, .digital-media-advertisement {display: block; background-size: cover; padding: 6rem 3rem;}
     .newspaper-advertisement-slider, .outdoor-advertisement-slider, .digital-advertisement-slider {/*padding-left: 10rem;*/ margin-top: 3rem;}
-    .advertisements-section .newspaper-advertisement .slick-arrow.slick-prev {bottom: -3rem;}
-    .advertisements-section .newspaper-advertisement .slick-arrow.slick-next {bottom: -3rem;}
+    /* .advertisements-section .newspaper-advertisement .slick-arrow.slick-prev {bottom: -3rem;}
+    .advertisements-section .newspaper-advertisement .slick-arrow.slick-next {bottom: -3rem;} */
     .television-advertisement-slider {margin-top: 3rem;}
-    .advertisements-section .television-advertisement .slick-arrow.slick-prev {bottom: -3.5rem;}
+    /* .advertisements-section .television-advertisement .slick-arrow.slick-prev {bottom: -3.5rem;}
     .advertisements-section .television-advertisement .slick-arrow.slick-next {bottom: -3.5rem;}
     .advertisements-section .outdoor-advertisement .slick-arrow.slick-prev {bottom: -4rem;}
     .advertisements-section .outdoor-advertisement .slick-arrow.slick-next {bottom: -4rem;}
     .advertisements-section .digital-media-advertisement .slick-arrow.slick-prev {bottom: -3rem;}
-    .advertisements-section .digital-media-advertisement .slick-arrow.slick-next {bottom: -3rem;}
+    .advertisements-section .digital-media-advertisement .slick-arrow.slick-next {bottom: -3rem;} */
     .digital-media-logos img {width: 3rem;}
     .brands-needs-section {padding-top: 6rem; padding-bottom: 4rem;}
     .brands-needs-section .lg-container {width: 90%;}

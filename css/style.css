@@ -120,11 +120,13 @@ html {font-size: 62.5%;
 .clients-section .md-container {text-align: center; color: #2E3037;}
 .clients-section .heading-04 {line-height: 1.5;}
 .clients-logo-slider {padding-bottom: 12.4rem;}
-.clients-logo-slider-box {display: grid !important; grid-template-columns: repeat(5, 1fr); column-gap: 10rem; row-gap: 2rem; align-items: center; justify-items: center; margin-top: 3.6rem;}
+.clients-logo-slider-box {display: grid !important; grid-template-columns: repeat(5, 1fr); column-gap: 10rem; row-gap: 2rem; align-items: center; justify-items: center; margin-top: 3.6rem; height: 100%;}
 .clients-logo-slider-box .client-logo-img {width: 16rem;}
 .clients-logo-slider .slick-dots {display: flex; align-items: center; justify-content: center; gap: 1.8rem; margin-top: 4.7rem;}
 .clients-logo-slider .slick-dots li button {font-size: 0; width: 1.4rem; height: 1.4rem; background-color: rgb(46, 48, 55, 0.3); border-radius: 50%;}
 .clients-logo-slider .slick-dots li.slick-active button {background-color: #E50019; transform: scale(1.5);}
+.clients-logo-slider .slick-track {display: flex;}
+.clients-logo-slider .slick-slide.slick-current.slick-active div {height: 100%;}
 
 /* Index Ending Line Section */
 .index-ending-line-section {text-align: center; background: rgb(255,255,255); background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(191,191,191,1) 100%); padding: 1.5rem 0;}
@@ -167,33 +169,43 @@ html {font-size: 62.5%;
 .advertisements-section .heading-05 {font-size: 6.6rem; color: #FFFFFF; line-height: 1;}
 .advertisements-section .text {color: #FFFFFF;}
 .advertisements-section .heading-05 span {opacity: 0.5; display: block;}
-.advertisements-section .slick-arrow {font-size: 0; width: 2rem; height: 2rem; background: transparent; border: solid #FFFFFF; border-width: 4px 4px 0 0; position: absolute;}
-.advertisements-section .newspaper-advertisement .slick-arrow.slick-prev {bottom: -1.5rem; left: 42%; transform: rotate(-135deg);}
+.advertisements-section .slick-arrow {font-size: 0; /*width: 2rem; height: 2rem;*/ background: transparent; /*border: solid #FFFFFF; border-width: 4px 4px 0 0; position: absolute;*/}
+/* .advertisements-section .newspaper-advertisement .slick-arrow.slick-prev {bottom: -1.5rem; left: 42%; transform: rotate(-135deg);}
 .advertisements-section .newspaper-advertisement .slick-arrow.slick-next {bottom: -1.5rem; right: 42%; transform: rotate(45deg);}
-.advertisements-section .slick-arrow.slick-disabled {border-color: #7A7878;}
+.advertisements-section .slick-arrow.slick-disabled {border-color: #7A7878;} */
+.arrow-box {width: max-content; margin: 0 auto; display: flex; gap: 4rem; margin-top: 1rem;}
+.arrow-box .arrow-btn {font-size: 0; width: 2rem; height: 2rem; border: solid #FFFFFF; border-width: 4px 4px 0 0; background: transparent;}
+.arrow-box .news-prev-btn {transform: rotate(-135deg);}
+.arrow-box .news-next-btn {transform: rotate(45deg);}
+.arrow-box .tv-prev-btn {transform: rotate(-135deg);}
+.arrow-box .tv-next-btn {transform: rotate(45deg);}
+.arrow-box .out-prev-btn {transform: rotate(-135deg);}
+.arrow-box .out-next-btn {transform: rotate(45deg);}
+.arrow-box .digital-prev-btn {transform: rotate(-135deg);}
+.arrow-box .digital-next-btn {transform: rotate(45deg);}
 .newspaper-advertisement {background-image: url(../img/newspaper_advertisement_bg.jpg); background-repeat: no-repeat; background-size: cover; display: grid; grid-template-columns: 50% 50%; column-gap: 2rem; padding: 6rem 8rem; margin-bottom: 1rem;}
 .newspaper-advertisement-slider img {padding-inline: 1rem;}
 .advertisement-content .text:nth-child(2) {margin-top: 1.5rem; margin-bottom: 3.4rem;}
-/* .news-ad-slide {display: grid !important; grid-template-columns: repeat(3, 1fr); gap: 1.9rem;} */
 .television-advertisement {background-image: url(../img/television_advertisement_bg.jpg); background-repeat: no-repeat; background-size: cover; display: grid; grid-template-columns: 65% 35%; column-gap: 4rem; padding: 6rem 8rem; margin-bottom: 1rem;}
 .television-advertisement img {padding-inline: 1rem;}
-.television-advertisement-slider {grid-area: 1;}
-/* .tv-ad-slide {display: grid !important; grid-template-columns: repeat(2, 1fr); column-gap: 2rem;} */
-.advertisements-section .television-advertisement .slick-arrow.slick-prev {bottom: -1rem; left: 43%; transform: rotate(-135deg);}
-.advertisements-section .television-advertisement .slick-arrow.slick-next {bottom: -1rem; right: 43%; transform: rotate(45deg);}
+/* .television-advertisement-slider {grid-area: 1;} */
+.television-advertisement .arrow-and-slider {grid-area: 1;}
+/* .advertisements-section .television-advertisement .slick-arrow.slick-prev {bottom: -1rem; left: 43%; transform: rotate(-135deg);}
+.advertisements-section .television-advertisement .slick-arrow.slick-next {bottom: -1rem; right: 43%; transform: rotate(45deg);} */
 .outdoor-advertisement {background-image: url(../img/outdoor_advertisement_bg.jpg); background-repeat: no-repeat; background-size: cover; display: grid; grid-template-columns: 35% 65%; column-gap: 4rem; padding: 6rem 8rem; margin-bottom: 1rem;}
 .outdoor-advertisement img {padding-inline: 1rem;}
-/* .outdoor-ad-slide {display: grid !important; grid-template-columns: repeat(3, 1fr); column-gap: 2rem;} */
-.advertisements-section .outdoor-advertisement .slick-arrow.slick-prev {bottom: 2rem; left: 43%; transform: rotate(-135deg);}
-.advertisements-section .outdoor-advertisement .slick-arrow.slick-next {bottom: 2rem; right: 43%; transform: rotate(45deg);}
+/* .advertisements-section .outdoor-advertisement .slick-arrow.slick-prev {bottom: 2rem; left: 43%; transform: rotate(-135deg);}
+.advertisements-section .outdoor-advertisement .slick-arrow.slick-next {bottom: 2rem; right: 43%; transform: rotate(45deg);} */
 .digital-media-and-logos {background-image: url(../img/digital_media_bg.jpg); background-repeat: no-repeat; background-size: cover; padding-bottom: 1.5rem;}
 .digital-media-advertisement {display: grid; grid-template-columns: 65% 35%; column-gap: 4rem; padding: 6rem 8rem 2rem 8rem;}
-.digital-advertisement-slider {grid-area: 1;}
+/* .digital-advertisement-slider {grid-area: 1;} */
+.digital-advertisement .arrow-and-slider {grid-area: 1;}
 .digital-advertisement-slider img {padding-inline: 1rem;}
-/* .digital-ad-slide {display: grid !important; grid-template-columns: repeat(3, 1fr); column-gap: 2rem;} */
-.advertisements-section .digital-media-advertisement .slick-arrow.slick-prev {bottom: 1rem; left: 43%; transform: rotate(-135deg);}
-.advertisements-section .digital-media-advertisement .slick-arrow.slick-next {bottom: 1rem; right: 43%; transform: rotate(45deg);}
-.digital-media-logos {display: flex; align-items: center; justify-content: center; gap: 5rem; background-color: #FFFFFF; width: 99.5%; margin: 0 auto;}
+/* .advertisements-section .digital-media-advertisement .slick-arrow.slick-prev {bottom: 1rem; left: 43%; transform: rotate(-135deg);}
+.advertisements-section .digital-media-advertisement .slick-arrow.slick-next {bottom: 1rem; right: 43%; transform: rotate(45deg);} */
+.digital-media-logos {display: flex; align-items: center; justify-content: center; gap: 5rem; background-color: #FFFFFF; width: 99.5%; margin: 0 auto; padding-block: 3rem;}
+.digital-media-logo-box {width: 5rem; height: 5rem; padding-inline: 4rem;}
+.digital-media-logo-box img {width: 100%; height: 100%; object-fit: contain;}
 
 /* Brand's Needs Section */
 .brands-needs-section {background-color: #F5F5F5; padding-top: 10.6rem; padding-bottom: 12.9rem; position: relative;}
@@ -261,7 +273,7 @@ html {font-size: 62.5%;
 .our-team-content {grid-column: 2; width: 41.2rem; position: absolute; right: 14%; top: 50%; transform: translateY(-50%); margin-top: -5rem;}
 .our-team-title {font-size: 4.2rem; color: #FFFFFF; margin-bottom: 2.6rem;}
 .about-our-team-img {position: relative;}
-.about-our-team-info {color: #FFFFFF;position: absolute; top: 0; left: 0;width: 100%;height: 100%;padding: 3.4rem 3.2rem;padding-bottom: 0;}
+.about-our-team-info {color: #FFFFFF;position: absolute; top: 0; left: 0; right: 0; height: 100%;padding: 3.4rem 3.2rem;padding-bottom: 0;}
 
 /* Our Team Media Slider Section */
 .our-team-media-slider-section {display: flex; align-items: center; background-color: #E50019;}
