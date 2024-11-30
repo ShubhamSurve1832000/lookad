@@ -277,7 +277,7 @@ html {font-size: 62.5%;
 .reviews-section .slick-arrow.slick-prev {background-image: url(../img/reviews_slider_prev_arrow.png); background-repeat: no-repeat; background-color: transparent; width: 5%; padding-bottom: 7%; top: -90px; right: 60px;}
 .reviews-section .slick-arrow.slick-next {background-image: url(../img/reviews_slider_next_arrow.png); background-repeat: no-repeat; background-color: transparent; width: 5%; padding-bottom: 7%; top: -90px; right: 0;}
 .reviews-section .slick-arrow.slick-disabled {opacity: 0.5;}
-.review-box {display: grid !important; justify-items: center; padding: 10.4rem 5.5rem 4.5rem 5.5rem; box-shadow: 0px 0px 20px 0px #707070; border-radius: 3.3rem; border: 1px solid #707070; border: none;}
+.review-box {display: grid !important; grid-template-rows: 60% 20% 20%; justify-items: center; padding: 10.4rem 5.5rem 4.5rem 5.5rem; box-shadow: 0px 0px 20px 0px #707070; border-radius: 3.3rem; border: 1px solid #707070; border: none;}
 .review-text {text-align: center;}
 .review-text:before {content: ""; background-image: url(../img/about_us_review_design_icon.png); background-repeat: no-repeat; display: block; width: 3%; padding-bottom: 4%; position: absolute; top: 65px;}
 .reviewer-name {font-size: 2.3rem; margin-top: 2.8rem; margin-bottom: 1rem; align-self: flex-end;}

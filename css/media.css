@@ -69,6 +69,7 @@
     .advertisements-section .digital-media-advertisement .slick-arrow.slick-next {bottom: 8rem;}
     .digital-media-logos {padding-top: 1rem; padding-bottom: 1rem;}
     .digital-media-logos img {width: 12rem;}
+    .step-box-shadow-design:after {top: -45rem; background-size: 270%; background-position: -30rem -6rem;}
 
     /* About Us Page */
     .about-us-banner-content .heading-03 {-webkit-text-stroke: 2px;}
@@ -141,6 +142,7 @@
     .media-step-num-box .step-num:first-child {font-size: 7rem; line-height: 0.9;}
     .media-step-num-box .step-num {font-size: 3.5rem;}
     .home-banner-content {top: 45%;}
+    .step-box-shadow-design:after {top: -62rem; background-size: 460%; background-position: -47rem -16rem;}   
 
     /* About Us Page */
     .reviews-section .sm-container {width: 80%;}
@@ -227,6 +229,7 @@
     .media-step-num-box {padding-left: 9.5rem;}
     .media-step-num-box .step-num:first-child {font-size: 6rem;}
     .media-step-num-box .step-num {font-size: 3rem;}
+    .step-box-shadow-design:after {top: -22rem; background-size: 50%; background-position: 2rem 17rem;}
 
     /* About Us Page */
     .client-logo-box {width: 10rem; height: 10rem;}
@@ -404,6 +407,9 @@
     .about-decades-section .sm-container {width: 80%;}
     .about-decades-section .sm-container .lg-circle {width: 23rem; height: 23rem; left: 5%;}
     .about-decades-content .sm-circle {left: 65%;}
+
+    /* Our Services Page */
+    .step-box-shadow-design:after {top: -7rem; background-size: 190%; background-position: -18rem -19rem;}
 
     /* About Us Page */
     .client-logo-box img {width: 100%;}
